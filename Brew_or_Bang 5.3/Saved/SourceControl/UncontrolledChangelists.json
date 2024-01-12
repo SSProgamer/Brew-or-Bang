@@ -5,6 +5,11 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"C:/Users/sun12/Documents/GitHub/Brew-or-Bang/Brew_or_Bang 5.3/Content/level/stage01_land.umap",
+				"C:/Users/sun12/Documents/GitHub/Brew-or-Bang/Brew_or_Bang 5.3/Content/level/texture/land_texture.uasset",
+				"C:/Users/sun12/Documents/GitHub/Brew-or-Bang/Brew_or_Bang 5.3/Content/level/stage1.umap",
+				"C:/Users/sun12/Documents/GitHub/Brew-or-Bang/Brew_or_Bang 5.3/Content/level/stage2.umap",
+				"C:/Users/sun12/Documents/GitHub/Brew-or-Bang/Brew_or_Bang 5.3/Content/level/stage01_land_sharedassets/gravel_LayerInfo.uasset",
 				"E:/Brew-or-Bang/Brew_or_Bang 5.3/Content/level/stage01_land.umap",
 				"E:/Brew-or-Bang/Brew_or_Bang 5.3/Content/Character/customer.uasset",
 				"E:/Brew-or-Bang/Brew_or_Bang 5.3/Content/Character/palette.uasset",
@@ -661,7 +666,6 @@
 				"C:/Users/sun12/Documents/GitHub/Brew-or-Bang/Brew_or_Bang 5.3/Content/level/Fantastic_Village_Pack/textures/T_ENV_TERRAIN_gravel_N.uasset",
 				"C:/Users/sun12/Documents/GitHub/Brew-or-Bang/Brew_or_Bang 5.3/Content/level/Fantastic_Village_Pack/textures/T_ENV_TERRAIN_gravel_BC.uasset",
 				"C:/Users/sun12/Documents/GitHub/Brew-or-Bang/Brew_or_Bang 5.3/Content/level/Fantastic_Village_Pack/build/Gravel_LayerInfo.uasset",
-				"C:/Users/sun12/Documents/GitHub/Brew-or-Bang/Brew_or_Bang 5.3/Content/level/stage01_land.umap",
 				"C:/Users/sun12/Documents/GitHub/Brew-or-Bang/Brew_or_Bang 5.3/Content/level/stage01_land_BuiltData.uasset"
 			]
 		}
