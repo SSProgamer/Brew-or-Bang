@@ -5,6 +5,11 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"C:/Users/MSI/Documents/GitHub/Brew-or-Bang/Brew_or_Bang 5.3/Content/level/spawn/spawn_01.uasset",
+				"C:/Users/MSI/Documents/GitHub/Brew-or-Bang/Brew_or_Bang 5.3/Content/level/spawn/spawn_2.uasset",
+				"C:/Users/MSI/Documents/GitHub/Brew-or-Bang/Brew_or_Bang 5.3/Content/level/spawn/spawn_3.uasset",
+				"C:/Users/MSI/Documents/GitHub/Brew-or-Bang/Brew_or_Bang 5.3/Content/level/spawn/spawn_4.uasset",
+				"C:/Users/MSI/Documents/GitHub/Brew-or-Bang/Brew_or_Bang 5.3/Content/Character/Main_Character/Player_TP.uasset",
 				"C:/Users/sun12/Documents/GitHub/Brew-or-Bang/Brew_or_Bang 5.3/Content/level/stage01_land.umap",
 				"C:/Users/sun12/Documents/GitHub/Brew-or-Bang/Brew_or_Bang 5.3/Content/level/texture/land_texture.uasset",
 				"C:/Users/sun12/Documents/GitHub/Brew-or-Bang/Brew_or_Bang 5.3/Content/level/stage1.umap",
