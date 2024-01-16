@@ -5,6 +5,10 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"C:/Users/FAHUT/Documents/GitHub/Brew-or-Bang/Brew_or_Bang 5.3/Content/Menu/Widget/UI_ShopMenu.uasset",
+				"C:/Users/FAHUT/Documents/GitHub/Brew-or-Bang/Brew_or_Bang 5.3/Content/Blueprints/variables.uasset",
+				"C:/Users/FAHUT/Documents/GitHub/Brew-or-Bang/Brew_or_Bang 5.3/Content/Character/Main_Character/BP_Beer.uasset",
+				"C:/Users/FAHUT/Documents/GitHub/Brew-or-Bang/Brew_or_Bang 5.3/Content/Character/Enemy/Customer.uasset",
 				"C:/Users/sun12/Documents/GitHub/Brew-or-Bang/Brew_or_Bang 5.3/Content/level/stage01_land.umap",
 				"C:/Users/sun12/Documents/GitHub/Brew-or-Bang/Brew_or_Bang 5.3/Content/level/texture/land_texture.uasset",
 				"C:/Users/sun12/Documents/GitHub/Brew-or-Bang/Brew_or_Bang 5.3/Content/level/stage1.umap",
