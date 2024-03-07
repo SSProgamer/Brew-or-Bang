@@ -6849,3 +6849,30 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.03.07-16.38.02:380][331]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=64
 [2024.03.07-16.38.02:392][331]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
 [2024.03.07-16.38.02:422][332]LogPlayLevel: Display: Destroying online subsystem :Context_95
+[2024.03.07-16.38.28:880][489]LogUObjectHash: Compacting FUObjectHashTables data took   2.93ms
+[2024.03.07-16.38.28:884][489]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Menu/InterfaceLevel/ShopMenu' took 0.043
+[2024.03.07-16.38.28:888][489]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/variables] ([2] browsable assets)...
+[2024.03.07-16.38.28:888][489]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/variables]
+[2024.03.07-16.38.28:952][489]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/variables_Auto6
+[2024.03.07-16.38.28:952][489]LogSavePackage: Moving 'C:/Users/FAHUT/Documents/GitHub/Brew-or-Bang/Brew_or_Bang 5.3/Saved/variables_Auto6AEC366BF411713BAA157F1B2F7399134.tmp' to 'C:/Users/FAHUT/Documents/GitHub/Brew-or-Bang/Brew_or_Bang 5.3/Saved/Autosaves/Game/Blueprints/variables_Auto6.uasset'
+[2024.03.07-16.38.28:958][489]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Menu/Widget/UI_ShopMenu] ([2] browsable assets)...
+[2024.03.07-16.38.28:968][489]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Menu/Widget/UI_ShopMenu.UI_ShopMenu]
+[2024.03.07-16.38.28:968][489]OBJ SavePackage: Finished generating thumbnails for package [/Game/Menu/Widget/UI_ShopMenu]
+[2024.03.07-16.38.29:005][489]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Menu/Widget/UI_ShopMenu_Auto6
+[2024.03.07-16.38.29:005][489]LogSavePackage: Moving 'C:/Users/FAHUT/Documents/GitHub/Brew-or-Bang/Brew_or_Bang 5.3/Saved/UI_ShopMenu_Auto6F60ED4704B7D5169AD0D47869504F771.tmp' to 'C:/Users/FAHUT/Documents/GitHub/Brew-or-Bang/Brew_or_Bang 5.3/Saved/Autosaves/Game/Menu/Widget/UI_ShopMenu_Auto6.uasset'
+[2024.03.07-16.38.29:006][489]LogFileHelpers: Auto-saving content packages took 0.121
+[2024.03.07-16.39.00:595][661]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2024.03.07-16.39.03:894][661]LogSlate: Window 'Save Content' being destroyed
+[2024.03.07-16.39.03:935][661]LogAutomationController: Ignoring very large delta of 3.37 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.03.07-16.39.07:197][838]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2024.03.07-16.39.07:205][838]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.07-16.39.07:295][838]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/variables" FILE="C:/Users/FAHUT/Documents/GitHub/Brew-or-Bang/Brew_or_Bang 5.3/Content/Blueprints/variables.uasset" SILENT=true
+[2024.03.07-16.39.07:315][838]LogSavePackage: Moving output files for package: /Game/Blueprints/variables
+[2024.03.07-16.39.07:316][838]LogSavePackage: Moving 'C:/Users/FAHUT/Documents/GitHub/Brew-or-Bang/Brew_or_Bang 5.3/Saved/variables9C9A1EBF418D883F6FF65D9D07DA5568.tmp' to 'C:/Users/FAHUT/Documents/GitHub/Brew-or-Bang/Brew_or_Bang 5.3/Content/Blueprints/variables.uasset'
+[2024.03.07-16.39.07:321][838]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Menu/Widget/UI_ShopMenu" FILE="C:/Users/FAHUT/Documents/GitHub/Brew-or-Bang/Brew_or_Bang 5.3/Content/Menu/Widget/UI_ShopMenu.uasset" SILENT=true
+[2024.03.07-16.39.07:344][838]LogSavePackage: Moving output files for package: /Game/Menu/Widget/UI_ShopMenu
+[2024.03.07-16.39.07:345][838]LogSavePackage: Moving 'C:/Users/FAHUT/Documents/GitHub/Brew-or-Bang/Brew_or_Bang 5.3/Saved/UI_ShopMenu4FFB20B74847171531623C8138B8B8A2.tmp' to 'C:/Users/FAHUT/Documents/GitHub/Brew-or-Bang/Brew_or_Bang 5.3/Content/Menu/Widget/UI_ShopMenu.uasset'
+[2024.03.07-16.39.07:356][838]LogFileHelpers: InternalPromptForCheckoutAndSave took 150 ms (total: 2.06 sec)
+[2024.03.07-16.39.07:358][838]AssetCheck: New page: Asset Save: multiple assets
+[2024.03.07-16.39.07:358][838]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/variables.variables
+[2024.03.07-16.39.07:358][838]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Menu/Widget/UI_ShopMenu.UI_ShopMenu
