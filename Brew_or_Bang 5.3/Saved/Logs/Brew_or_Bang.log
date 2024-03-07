@@ -4013,3 +4013,22 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.03.07-15.23.33:350][334]LogFileHelpers: InternalPromptForCheckoutAndSave took 116 ms (total: 1.08 sec)
 [2024.03.07-15.23.33:353][334]AssetCheck: New page: Asset Save: UI_ShopMenu
 [2024.03.07-15.23.33:353][334]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Menu/Widget/UI_ShopMenu.UI_ShopMenu
+[2024.03.07-15.24.46:329][882]LogEditorTransaction: Undo Remove Widget
+[2024.03.07-15.24.59:464][425]BlueprintLog: New page: Compile UI_ShopMenu
+[2024.03.07-15.24.59:528][425]LogUObjectHash: Compacting FUObjectHashTables data took   2.04ms
+[2024.03.07-15.25.00:526][474]LogUObjectHash: Compacting FUObjectHashTables data took   1.96ms
+[2024.03.07-15.25.00:531][474]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.07-15.25.00:620][474]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Menu/Widget/UI_ShopMenu" FILE="C:/Users/FAHUT/Documents/GitHub/Brew-or-Bang/Brew_or_Bang 5.3/Content/Menu/Widget/UI_ShopMenu.uasset" SILENT=true
+[2024.03.07-15.25.00:642][474]LogSavePackage: Moving output files for package: /Game/Menu/Widget/UI_ShopMenu
+[2024.03.07-15.25.00:643][474]LogSavePackage: Moving 'C:/Users/FAHUT/Documents/GitHub/Brew-or-Bang/Brew_or_Bang 5.3/Saved/UI_ShopMenu24E7DD6345C8C7177E1CB790B6987FEF.tmp' to 'C:/Users/FAHUT/Documents/GitHub/Brew-or-Bang/Brew_or_Bang 5.3/Content/Menu/Widget/UI_ShopMenu.uasset'
+[2024.03.07-15.25.00:654][474]LogFileHelpers: InternalPromptForCheckoutAndSave took 122 ms (total: 1.20 sec)
+[2024.03.07-15.25.00:656][474]AssetCheck: New page: Asset Save: UI_ShopMenu
+[2024.03.07-15.25.00:656][474]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Menu/Widget/UI_ShopMenu.UI_ShopMenu
+[2024.03.07-15.25.06:160][780]LogSlate: Window 'variables' being destroyed
+[2024.03.07-15.25.06:168][780]LogSlate: Window 'variables' being destroyed
+[2024.03.07-15.25.06:420][780]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2024.03.07-15.25.06:420][780]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.07-15.25.06:445][780]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2024.03.07-15.25.06:445][780]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.07-15.25.06:598][780]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2024.03.07-15.25.06:599][780]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
