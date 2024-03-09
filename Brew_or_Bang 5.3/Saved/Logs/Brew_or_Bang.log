@@ -3195,3 +3195,733 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.03.09-09.51.58:051][127]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/variables_Auto5
 [2024.03.09-09.51.58:051][127]LogSavePackage: Moving 'C:/Users/FAHUT/Documents/GitHub/Brew-or-Bang/Brew_or_Bang 5.3/Saved/variables_Auto5ABB8AEA040459C1966CC5EBFBACB41DA.tmp' to 'C:/Users/FAHUT/Documents/GitHub/Brew-or-Bang/Brew_or_Bang 5.3/Saved/Autosaves/Game/Blueprints/variables_Auto5.uasset'
 [2024.03.09-09.51.58:053][127]LogFileHelpers: Auto-saving content packages took 0.068
+[2024.03.09-09.52.32:862][350]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2024.03.09-09.52.32:868][350]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.09-09.52.32:952][350]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Menu/Widget/UI_ShopMenu" FILE="C:/Users/FAHUT/Documents/GitHub/Brew-or-Bang/Brew_or_Bang 5.3/Content/Menu/Widget/UI_ShopMenu.uasset" SILENT=true
+[2024.03.09-09.52.32:984][350]LogSavePackage: Moving output files for package: /Game/Menu/Widget/UI_ShopMenu
+[2024.03.09-09.52.32:985][350]LogSavePackage: Moving 'C:/Users/FAHUT/Documents/GitHub/Brew-or-Bang/Brew_or_Bang 5.3/Saved/UI_ShopMenu163606D0418B496F292BD5A202D7F570.tmp' to 'C:/Users/FAHUT/Documents/GitHub/Brew-or-Bang/Brew_or_Bang 5.3/Content/Menu/Widget/UI_ShopMenu.uasset'
+[2024.03.09-09.52.32:987][350]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/variables" FILE="C:/Users/FAHUT/Documents/GitHub/Brew-or-Bang/Brew_or_Bang 5.3/Content/Blueprints/variables.uasset" SILENT=true
+[2024.03.09-09.52.33:006][350]LogSavePackage: Moving output files for package: /Game/Blueprints/variables
+[2024.03.09-09.52.33:006][350]LogSavePackage: Moving 'C:/Users/FAHUT/Documents/GitHub/Brew-or-Bang/Brew_or_Bang 5.3/Saved/variablesFF8441844BD1D547ADED8384768F5DFA.tmp' to 'C:/Users/FAHUT/Documents/GitHub/Brew-or-Bang/Brew_or_Bang 5.3/Content/Blueprints/variables.uasset'
+[2024.03.09-09.52.33:018][350]LogFileHelpers: InternalPromptForCheckoutAndSave took 150 ms (total: 342 ms)
+[2024.03.09-09.52.33:021][350]AssetCheck: New page: Asset Save: multiple assets
+[2024.03.09-09.52.33:021][350]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Menu/Widget/UI_ShopMenu.UI_ShopMenu
+[2024.03.09-09.52.33:024][350]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/variables.variables
+[2024.03.09-09.59.53:168][594]LogSelectionDetails: Warning: NavigateToFunctionSource:  Unable to find source file and line number for 'UImage::SetBrushTintColor' [Element not found.]
+[2024.03.09-10.02.07:547][932]LogSlate: Window 'Color Picker' being destroyed
+[2024.03.09-10.02.10:862][ 78]LogUObjectHash: Compacting FUObjectHashTables data took  10.41ms
+[2024.03.09-10.02.10:875][ 78]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Menu/InterfaceLevel/ShopMenu' took 0.146
+[2024.03.09-10.02.10:881][ 78]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Menu/Widget/UI_ShopMenu] ([2] browsable assets)...
+[2024.03.09-10.02.10:911][ 78]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Menu/Widget/UI_ShopMenu.UI_ShopMenu]
+[2024.03.09-10.02.10:914][ 78]OBJ SavePackage: Finished generating thumbnails for package [/Game/Menu/Widget/UI_ShopMenu]
+[2024.03.09-10.02.10:987][ 78]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Menu/Widget/UI_ShopMenu_Auto6
+[2024.03.09-10.02.10:988][ 78]LogSavePackage: Moving 'C:/Users/FAHUT/Documents/GitHub/Brew-or-Bang/Brew_or_Bang 5.3/Saved/UI_ShopMenu_Auto6D7DC8C3340D11676E39A92A68E0B1682.tmp' to 'C:/Users/FAHUT/Documents/GitHub/Brew-or-Bang/Brew_or_Bang 5.3/Saved/Autosaves/Game/Menu/Widget/UI_ShopMenu_Auto6.uasset'
+[2024.03.09-10.02.10:998][ 78]LogFileHelpers: Auto-saving content packages took 0.123
+[2024.03.09-10.03.42:112][195]BlueprintLog: New page: Compile UI_ShopMenu
+[2024.03.09-10.03.42:277][195]LogUObjectHash: Compacting FUObjectHashTables data took   2.12ms
+[2024.03.09-10.04.09:497][363]BlueprintLog: New page: Compile UI_ShopMenu
+[2024.03.09-10.04.09:559][363]LogUObjectHash: Compacting FUObjectHashTables data took   3.25ms
+[2024.03.09-10.04.11:788][467]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.03.09-10.04.11:816][467]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.09-10.04.11:822][467]PIE: New page: PIE session: ShopMenu (10 มี.ค. 2567 00:04:11)
+[2024.03.09-10.04.11:829][467]LogPlayLevel: Creating play world package: /Game/Menu/InterfaceLevel/UEDPIE_0_ShopMenu
+[2024.03.09-10.04.11:868][467]LogPlayLevel: PIE: StaticDuplicateObject took: (0.038743s)
+[2024.03.09-10.04.11:868][467]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Menu/InterfaceLevel/ShopMenu.ShopMenu to /Game/Menu/InterfaceLevel/UEDPIE_0_ShopMenu.ShopMenu (0.039387s)
+[2024.03.09-10.04.11:890][467]LogUObjectHash: Compacting FUObjectHashTables data took   1.99ms
+[2024.03.09-10.04.11:909][467]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.09-10.04.11:926][467]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.09-10.04.11:956][467]LogAIModule: Creating AISystem for world ShopMenu
+[2024.03.09-10.04.11:980][467]LogPlayLevel: PIE: World Init took: (0.078833s)
+[2024.03.09-10.04.11:983][467]LogAudio: Display: Creating Audio Device:                 Id: 28, Scope: Unique, Realtime: True
+[2024.03.09-10.04.11:985][467]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.09-10.04.11:985][467]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.09-10.04.11:985][467]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.09-10.04.11:985][467]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.09-10.04.11:985][467]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.03.09-10.04.11:985][467]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.03.09-10.04.11:985][467]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.03.09-10.04.11:985][467]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.09-10.04.11:991][467]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.09-10.04.11:991][467]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.09-10.04.11:991][467]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.09-10.04.11:996][467]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.03.09-10.04.12:040][467]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2024.03.09-10.04.12:044][467]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.09-10.04.12:044][467]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.09-10.04.12:045][467]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.09-10.04.12:050][467]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=28
+[2024.03.09-10.04.12:050][467]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=28
+[2024.03.09-10.04.12:053][467]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=28
+[2024.03.09-10.04.12:053][467]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=28
+[2024.03.09-10.04.12:053][467]LogInit: FAudioDevice initialized with ID 28.
+[2024.03.09-10.04.12:053][467]LogAudio: Display: Audio Device (ID: 28) registered with world 'ShopMenu'.
+[2024.03.09-10.04.12:054][467]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 28
+[2024.03.09-10.04.12:080][467]LogLoad: Game class is 'TopDownGameMode_C'
+[2024.03.09-10.04.12:089][467]LogWorld: Bringing World /Game/Menu/InterfaceLevel/UEDPIE_0_ShopMenu.ShopMenu up for play (max tick rate 60) at 2024.03.09-17.04.12
+[2024.03.09-10.04.12:092][467]LogWorld: Bringing up level for play took: 0.009289
+[2024.03.09-10.04.12:105][467]LogOnline: OSS: Created online subsystem instance for: :Context_30
+[2024.03.09-10.04.12:200][467]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.03.09-10.04.12:200][467]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2024.03.09-10.04.12:204][467]PIE: Server logged in
+[2024.03.09-10.04.12:205][467]PIE: Play in editor total start time 0.398 seconds.
+[2024.03.09-10.04.12:235][467]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'shop_cue'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.03.09-10.04.12:790][499]LogBlueprintUserMessages: [variables_C_26] Max Health:6
+[2024.03.09-10.04.13:372][534]LogBlueprintUserMessages: [variables_C_26] Max Health:7
+[2024.03.09-10.04.13:705][554]LogBlueprintUserMessages: [variables_C_26] Max Health:8
+[2024.03.09-10.04.14:005][572]LogBlueprintUserMessages: [variables_C_26] purchase unsucc
+[2024.03.09-10.04.14:372][594]LogBlueprintUserMessages: [variables_C_26] purchase unsucc
+[2024.03.09-10.04.17:264][765]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.09-10.04.17:264][765]LogWorld: BeginTearingDown for /Game/Menu/InterfaceLevel/UEDPIE_0_ShopMenu
+[2024.03.09-10.04.17:269][765]LogWorld: UWorld::CleanupWorld for ShopMenu, bSessionEnded=true, bCleanupResources=true
+[2024.03.09-10.04.17:271][765]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.09-10.04.17:282][765]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.09-10.04.17:288][765]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.09-10.04.17:312][765]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.03.09-10.04.17:314][765]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 28
+[2024.03.09-10.04.17:315][765]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=28
+[2024.03.09-10.04.17:318][765]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=28
+[2024.03.09-10.04.17:329][765]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.09-10.04.17:342][765]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2024.03.09-10.04.17:381][766]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2024.03.09-10.04.22:361][991]BlueprintLog: New page: Compile UI_ShopMenu
+[2024.03.09-10.04.22:423][991]LogUObjectHash: Compacting FUObjectHashTables data took   3.34ms
+[2024.03.09-10.04.24:253][ 74]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.03.09-10.04.24:263][ 74]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.09-10.04.24:263][ 74]PIE: New page: PIE session: ShopMenu (10 มี.ค. 2567 00:04:24)
+[2024.03.09-10.04.24:263][ 74]LogPlayLevel: Creating play world package: /Game/Menu/InterfaceLevel/UEDPIE_0_ShopMenu
+[2024.03.09-10.04.24:265][ 74]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001845s)
+[2024.03.09-10.04.24:265][ 74]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Menu/InterfaceLevel/ShopMenu.ShopMenu to /Game/Menu/InterfaceLevel/UEDPIE_0_ShopMenu.ShopMenu (0.001902s)
+[2024.03.09-10.04.24:290][ 74]LogUObjectHash: Compacting FUObjectHashTables data took   2.05ms
+[2024.03.09-10.04.24:295][ 74]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.09-10.04.24:295][ 74]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.09-10.04.24:295][ 74]LogAIModule: Creating AISystem for world ShopMenu
+[2024.03.09-10.04.24:296][ 74]LogPlayLevel: PIE: World Init took: (0.001263s)
+[2024.03.09-10.04.24:297][ 74]LogAudio: Display: Creating Audio Device:                 Id: 29, Scope: Unique, Realtime: True
+[2024.03.09-10.04.24:297][ 74]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.09-10.04.24:297][ 74]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.09-10.04.24:297][ 74]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.09-10.04.24:297][ 74]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.09-10.04.24:297][ 74]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.03.09-10.04.24:297][ 74]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.03.09-10.04.24:297][ 74]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.03.09-10.04.24:297][ 74]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.09-10.04.24:297][ 74]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.09-10.04.24:297][ 74]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.09-10.04.24:297][ 74]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.09-10.04.24:299][ 74]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.03.09-10.04.24:335][ 74]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2024.03.09-10.04.24:336][ 74]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.09-10.04.24:336][ 74]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.09-10.04.24:336][ 74]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.09-10.04.24:337][ 74]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=29
+[2024.03.09-10.04.24:337][ 74]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=29
+[2024.03.09-10.04.24:339][ 74]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=29
+[2024.03.09-10.04.24:339][ 74]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=29
+[2024.03.09-10.04.24:339][ 74]LogInit: FAudioDevice initialized with ID 29.
+[2024.03.09-10.04.24:339][ 74]LogAudio: Display: Audio Device (ID: 29) registered with world 'ShopMenu'.
+[2024.03.09-10.04.24:339][ 74]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 29
+[2024.03.09-10.04.24:342][ 74]LogLoad: Game class is 'TopDownGameMode_C'
+[2024.03.09-10.04.24:343][ 74]LogWorld: Bringing World /Game/Menu/InterfaceLevel/UEDPIE_0_ShopMenu.ShopMenu up for play (max tick rate 60) at 2024.03.09-17.04.24
+[2024.03.09-10.04.24:343][ 74]LogWorld: Bringing up level for play took: 0.000486
+[2024.03.09-10.04.24:346][ 74]LogOnline: OSS: Created online subsystem instance for: :Context_31
+[2024.03.09-10.04.24:351][ 74]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.03.09-10.04.24:351][ 74]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2024.03.09-10.04.24:351][ 74]PIE: Server logged in
+[2024.03.09-10.04.24:352][ 74]PIE: Play in editor total start time 0.089 seconds.
+[2024.03.09-10.04.24:355][ 74]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'shop_cue'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.03.09-10.04.25:142][121]LogBlueprintUserMessages: [variables_C_27] Max Health:6
+[2024.03.09-10.04.25:309][131]LogBlueprintUserMessages: [variables_C_27] Max Health:7
+[2024.03.09-10.04.25:459][140]LogBlueprintUserMessages: [variables_C_27] Max Health:8
+[2024.03.09-10.04.25:610][149]LogBlueprintUserMessages: [variables_C_27] purchase unsucc
+[2024.03.09-10.04.25:776][159]LogBlueprintUserMessages: [variables_C_27] purchase unsucc
+[2024.03.09-10.04.28:171][300]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.09-10.04.28:171][300]LogWorld: BeginTearingDown for /Game/Menu/InterfaceLevel/UEDPIE_0_ShopMenu
+[2024.03.09-10.04.28:171][300]LogWorld: UWorld::CleanupWorld for ShopMenu, bSessionEnded=true, bCleanupResources=true
+[2024.03.09-10.04.28:171][300]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.09-10.04.28:174][300]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.09-10.04.28:179][300]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.09-10.04.28:199][300]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.03.09-10.04.28:200][300]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 29
+[2024.03.09-10.04.28:200][300]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=29
+[2024.03.09-10.04.28:202][300]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=29
+[2024.03.09-10.04.28:213][300]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.09-10.04.28:216][300]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2024.03.09-10.04.28:241][301]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2024.03.09-10.04.29:232][360]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.03.09-10.04.29:242][360]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.09-10.04.29:242][360]PIE: New page: PIE session: ShopMenu (10 มี.ค. 2567 00:04:29)
+[2024.03.09-10.04.29:242][360]LogPlayLevel: Creating play world package: /Game/Menu/InterfaceLevel/UEDPIE_0_ShopMenu
+[2024.03.09-10.04.29:243][360]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001242s)
+[2024.03.09-10.04.29:243][360]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Menu/InterfaceLevel/ShopMenu.ShopMenu to /Game/Menu/InterfaceLevel/UEDPIE_0_ShopMenu.ShopMenu (0.001284s)
+[2024.03.09-10.04.29:265][360]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2024.03.09-10.04.29:267][360]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.09-10.04.29:267][360]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.09-10.04.29:267][360]LogAIModule: Creating AISystem for world ShopMenu
+[2024.03.09-10.04.29:267][360]LogPlayLevel: PIE: World Init took: (0.001306s)
+[2024.03.09-10.04.29:267][360]LogAudio: Display: Creating Audio Device:                 Id: 30, Scope: Unique, Realtime: True
+[2024.03.09-10.04.29:269][360]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.09-10.04.29:269][360]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.09-10.04.29:269][360]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.09-10.04.29:269][360]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.09-10.04.29:269][360]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.03.09-10.04.29:269][360]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.03.09-10.04.29:269][360]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.03.09-10.04.29:269][360]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.09-10.04.29:270][360]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.09-10.04.29:270][360]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.09-10.04.29:270][360]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.09-10.04.29:273][360]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.03.09-10.04.29:306][360]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2024.03.09-10.04.29:307][360]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.09-10.04.29:307][360]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.09-10.04.29:307][360]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.09-10.04.29:308][360]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=30
+[2024.03.09-10.04.29:308][360]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=30
+[2024.03.09-10.04.29:311][360]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=30
+[2024.03.09-10.04.29:311][360]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=30
+[2024.03.09-10.04.29:311][360]LogInit: FAudioDevice initialized with ID 30.
+[2024.03.09-10.04.29:311][360]LogAudio: Display: Audio Device (ID: 30) registered with world 'ShopMenu'.
+[2024.03.09-10.04.29:311][360]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 30
+[2024.03.09-10.04.29:314][360]LogLoad: Game class is 'TopDownGameMode_C'
+[2024.03.09-10.04.29:314][360]LogWorld: Bringing World /Game/Menu/InterfaceLevel/UEDPIE_0_ShopMenu.ShopMenu up for play (max tick rate 60) at 2024.03.09-17.04.29
+[2024.03.09-10.04.29:315][360]LogWorld: Bringing up level for play took: 0.000502
+[2024.03.09-10.04.29:317][360]LogOnline: OSS: Created online subsystem instance for: :Context_32
+[2024.03.09-10.04.29:322][360]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.03.09-10.04.29:322][360]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2024.03.09-10.04.29:322][360]PIE: Server logged in
+[2024.03.09-10.04.29:323][360]PIE: Play in editor total start time 0.081 seconds.
+[2024.03.09-10.04.29:325][360]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'shop_cue'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.03.09-10.04.29:810][389]LogBlueprintUserMessages: [variables_C_28] Max Health:6
+[2024.03.09-10.04.30:543][433]LogBlueprintUserMessages: [variables_C_28] Max Health:7
+[2024.03.09-10.04.31:043][463]LogBlueprintUserMessages: [variables_C_28] Max Health:8
+[2024.03.09-10.04.37:178][830]LogBlueprintUserMessages: [variables_C_28] purchase unsucc
+[2024.03.09-10.04.38:250][892]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.09-10.04.38:250][892]LogWorld: BeginTearingDown for /Game/Menu/InterfaceLevel/UEDPIE_0_ShopMenu
+[2024.03.09-10.04.38:251][892]LogWorld: UWorld::CleanupWorld for ShopMenu, bSessionEnded=true, bCleanupResources=true
+[2024.03.09-10.04.38:251][892]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.09-10.04.38:254][892]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.09-10.04.38:259][892]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.09-10.04.38:280][892]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.09-10.04.38:281][892]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 30
+[2024.03.09-10.04.38:281][892]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=30
+[2024.03.09-10.04.38:283][892]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=30
+[2024.03.09-10.04.38:295][892]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2024.03.09-10.04.38:331][893]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2024.03.09-10.04.43:139][101]BlueprintLog: New page: Compile UI_ShopMenu
+[2024.03.09-10.04.43:197][101]LogUObjectHash: Compacting FUObjectHashTables data took   2.27ms
+[2024.03.09-10.04.45:036][186]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.03.09-10.04.45:045][186]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.09-10.04.45:045][186]PIE: New page: PIE session: ShopMenu (10 มี.ค. 2567 00:04:45)
+[2024.03.09-10.04.45:046][186]LogPlayLevel: Creating play world package: /Game/Menu/InterfaceLevel/UEDPIE_0_ShopMenu
+[2024.03.09-10.04.45:047][186]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001541s)
+[2024.03.09-10.04.45:048][186]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Menu/InterfaceLevel/ShopMenu.ShopMenu to /Game/Menu/InterfaceLevel/UEDPIE_0_ShopMenu.ShopMenu (0.001601s)
+[2024.03.09-10.04.45:077][186]LogUObjectHash: Compacting FUObjectHashTables data took   2.61ms
+[2024.03.09-10.04.45:087][186]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.09-10.04.45:087][186]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.09-10.04.45:087][186]LogAIModule: Creating AISystem for world ShopMenu
+[2024.03.09-10.04.45:088][186]LogPlayLevel: PIE: World Init took: (0.001875s)
+[2024.03.09-10.04.45:088][186]LogAudio: Display: Creating Audio Device:                 Id: 31, Scope: Unique, Realtime: True
+[2024.03.09-10.04.45:088][186]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.09-10.04.45:088][186]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.09-10.04.45:088][186]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.09-10.04.45:088][186]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.09-10.04.45:088][186]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.03.09-10.04.45:088][186]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.03.09-10.04.45:088][186]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.03.09-10.04.45:088][186]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.09-10.04.45:089][186]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.09-10.04.45:089][186]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.09-10.04.45:089][186]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.09-10.04.45:092][186]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.03.09-10.04.45:134][186]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2024.03.09-10.04.45:134][186]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.09-10.04.45:134][186]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.09-10.04.45:134][186]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.09-10.04.45:136][186]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=31
+[2024.03.09-10.04.45:136][186]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=31
+[2024.03.09-10.04.45:140][186]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=31
+[2024.03.09-10.04.45:141][186]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=31
+[2024.03.09-10.04.45:141][186]LogInit: FAudioDevice initialized with ID 31.
+[2024.03.09-10.04.45:141][186]LogAudio: Display: Audio Device (ID: 31) registered with world 'ShopMenu'.
+[2024.03.09-10.04.45:141][186]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 31
+[2024.03.09-10.04.45:145][186]LogLoad: Game class is 'TopDownGameMode_C'
+[2024.03.09-10.04.45:146][186]LogWorld: Bringing World /Game/Menu/InterfaceLevel/UEDPIE_0_ShopMenu.ShopMenu up for play (max tick rate 60) at 2024.03.09-17.04.45
+[2024.03.09-10.04.45:146][186]LogWorld: Bringing up level for play took: 0.000478
+[2024.03.09-10.04.45:149][186]LogOnline: OSS: Created online subsystem instance for: :Context_33
+[2024.03.09-10.04.45:154][186]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.03.09-10.04.45:154][186]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2024.03.09-10.04.45:154][186]PIE: Server logged in
+[2024.03.09-10.04.45:155][186]PIE: Play in editor total start time 0.109 seconds.
+[2024.03.09-10.04.45:159][186]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'shop_cue'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.03.09-10.04.45:894][230]LogBlueprintUserMessages: [variables_C_29] Max Health:6
+[2024.03.09-10.04.46:162][246]LogBlueprintUserMessages: [variables_C_29] Max Health:7
+[2024.03.09-10.04.46:362][258]LogBlueprintUserMessages: [variables_C_29] Max Health:8
+[2024.03.09-10.04.48:861][406]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.09-10.04.48:861][406]LogWorld: BeginTearingDown for /Game/Menu/InterfaceLevel/UEDPIE_0_ShopMenu
+[2024.03.09-10.04.48:861][406]LogWorld: UWorld::CleanupWorld for ShopMenu, bSessionEnded=true, bCleanupResources=true
+[2024.03.09-10.04.48:861][406]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.09-10.04.48:864][406]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.09-10.04.48:869][406]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.09-10.04.48:893][406]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.03.09-10.04.48:893][406]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 31
+[2024.03.09-10.04.48:893][406]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=31
+[2024.03.09-10.04.48:895][406]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=31
+[2024.03.09-10.04.48:905][406]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.09-10.04.48:908][406]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2024.03.09-10.04.48:949][408]LogPlayLevel: Display: Destroying online subsystem :Context_33
+[2024.03.09-10.04.49:453][438]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.03.09-10.04.49:465][438]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.09-10.04.49:465][438]PIE: New page: PIE session: ShopMenu (10 มี.ค. 2567 00:04:49)
+[2024.03.09-10.04.49:467][438]LogPlayLevel: Creating play world package: /Game/Menu/InterfaceLevel/UEDPIE_0_ShopMenu
+[2024.03.09-10.04.49:468][438]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001767s)
+[2024.03.09-10.04.49:468][438]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Menu/InterfaceLevel/ShopMenu.ShopMenu to /Game/Menu/InterfaceLevel/UEDPIE_0_ShopMenu.ShopMenu (0.001828s)
+[2024.03.09-10.04.49:488][438]LogUObjectHash: Compacting FUObjectHashTables data took   1.91ms
+[2024.03.09-10.04.49:490][438]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.09-10.04.49:490][438]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.09-10.04.49:491][438]LogAIModule: Creating AISystem for world ShopMenu
+[2024.03.09-10.04.49:491][438]LogPlayLevel: PIE: World Init took: (0.001096s)
+[2024.03.09-10.04.49:491][438]LogAudio: Display: Creating Audio Device:                 Id: 32, Scope: Unique, Realtime: True
+[2024.03.09-10.04.49:491][438]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.09-10.04.49:491][438]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.09-10.04.49:491][438]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.09-10.04.49:491][438]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.09-10.04.49:491][438]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.03.09-10.04.49:491][438]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.03.09-10.04.49:491][438]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.03.09-10.04.49:491][438]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.09-10.04.49:492][438]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.09-10.04.49:492][438]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.09-10.04.49:492][438]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.09-10.04.49:494][438]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.03.09-10.04.49:529][438]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2024.03.09-10.04.49:529][438]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.09-10.04.49:529][438]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.09-10.04.49:529][438]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.09-10.04.49:530][438]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=32
+[2024.03.09-10.04.49:530][438]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=32
+[2024.03.09-10.04.49:533][438]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=32
+[2024.03.09-10.04.49:533][438]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=32
+[2024.03.09-10.04.49:533][438]LogInit: FAudioDevice initialized with ID 32.
+[2024.03.09-10.04.49:533][438]LogAudio: Display: Audio Device (ID: 32) registered with world 'ShopMenu'.
+[2024.03.09-10.04.49:533][438]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 32
+[2024.03.09-10.04.49:536][438]LogLoad: Game class is 'TopDownGameMode_C'
+[2024.03.09-10.04.49:537][438]LogWorld: Bringing World /Game/Menu/InterfaceLevel/UEDPIE_0_ShopMenu.ShopMenu up for play (max tick rate 60) at 2024.03.09-17.04.49
+[2024.03.09-10.04.49:537][438]LogWorld: Bringing up level for play took: 0.000352
+[2024.03.09-10.04.49:540][438]LogOnline: OSS: Created online subsystem instance for: :Context_34
+[2024.03.09-10.04.49:544][438]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.03.09-10.04.49:544][438]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2024.03.09-10.04.49:544][438]PIE: Server logged in
+[2024.03.09-10.04.49:545][438]PIE: Play in editor total start time 0.08 seconds.
+[2024.03.09-10.04.49:547][438]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'shop_cue'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.03.09-10.04.49:947][462]LogBlueprintUserMessages: [variables_C_30] Max Health:6
+[2024.03.09-10.04.50:480][494]LogBlueprintUserMessages: [variables_C_30] Max Health:7
+[2024.03.09-10.04.52:080][590]LogBlueprintUserMessages: [variables_C_30] increase dmg by john
+[2024.03.09-10.04.52:747][630]LogBlueprintUserMessages: [variables_C_30] increase dmg by john
+[2024.03.09-10.04.55:151][772]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.09-10.04.55:151][772]LogWorld: BeginTearingDown for /Game/Menu/InterfaceLevel/UEDPIE_0_ShopMenu
+[2024.03.09-10.04.55:151][772]LogWorld: UWorld::CleanupWorld for ShopMenu, bSessionEnded=true, bCleanupResources=true
+[2024.03.09-10.04.55:151][772]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.09-10.04.55:154][772]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.09-10.04.55:159][772]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.09-10.04.55:179][772]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.09-10.04.55:180][772]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 32
+[2024.03.09-10.04.55:180][772]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=32
+[2024.03.09-10.04.55:182][772]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=32
+[2024.03.09-10.04.55:196][772]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2024.03.09-10.04.55:220][773]LogPlayLevel: Display: Destroying online subsystem :Context_34
+[2024.03.09-10.04.55:936][816]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.03.09-10.04.55:947][816]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.09-10.04.55:947][816]PIE: New page: PIE session: ShopMenu (10 มี.ค. 2567 00:04:55)
+[2024.03.09-10.04.55:947][816]LogPlayLevel: Creating play world package: /Game/Menu/InterfaceLevel/UEDPIE_0_ShopMenu
+[2024.03.09-10.04.55:949][816]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001217s)
+[2024.03.09-10.04.55:949][816]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Menu/InterfaceLevel/ShopMenu.ShopMenu to /Game/Menu/InterfaceLevel/UEDPIE_0_ShopMenu.ShopMenu (0.001260s)
+[2024.03.09-10.04.55:971][816]LogUObjectHash: Compacting FUObjectHashTables data took   1.99ms
+[2024.03.09-10.04.55:973][816]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.09-10.04.55:973][816]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.09-10.04.55:973][816]LogAIModule: Creating AISystem for world ShopMenu
+[2024.03.09-10.04.55:974][816]LogPlayLevel: PIE: World Init took: (0.001041s)
+[2024.03.09-10.04.55:974][816]LogAudio: Display: Creating Audio Device:                 Id: 33, Scope: Unique, Realtime: True
+[2024.03.09-10.04.55:974][816]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.09-10.04.55:974][816]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.09-10.04.55:974][816]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.09-10.04.55:974][816]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.09-10.04.55:974][816]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.03.09-10.04.55:974][816]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.03.09-10.04.55:974][816]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.03.09-10.04.55:974][816]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.09-10.04.55:975][816]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.09-10.04.55:975][816]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.09-10.04.55:975][816]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.09-10.04.55:977][816]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.03.09-10.04.56:012][816]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2024.03.09-10.04.56:013][816]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.09-10.04.56:013][816]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.09-10.04.56:013][816]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.09-10.04.56:014][816]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=33
+[2024.03.09-10.04.56:014][816]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=33
+[2024.03.09-10.04.56:016][816]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=33
+[2024.03.09-10.04.56:016][816]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=33
+[2024.03.09-10.04.56:016][816]LogInit: FAudioDevice initialized with ID 33.
+[2024.03.09-10.04.56:016][816]LogAudio: Display: Audio Device (ID: 33) registered with world 'ShopMenu'.
+[2024.03.09-10.04.56:017][816]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 33
+[2024.03.09-10.04.56:020][816]LogLoad: Game class is 'TopDownGameMode_C'
+[2024.03.09-10.04.56:021][816]LogWorld: Bringing World /Game/Menu/InterfaceLevel/UEDPIE_0_ShopMenu.ShopMenu up for play (max tick rate 60) at 2024.03.09-17.04.56
+[2024.03.09-10.04.56:021][816]LogWorld: Bringing up level for play took: 0.000370
+[2024.03.09-10.04.56:024][816]LogOnline: OSS: Created online subsystem instance for: :Context_35
+[2024.03.09-10.04.56:028][816]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.03.09-10.04.56:028][816]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2024.03.09-10.04.56:028][816]PIE: Server logged in
+[2024.03.09-10.04.56:029][816]PIE: Play in editor total start time 0.082 seconds.
+[2024.03.09-10.04.56:031][816]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'shop_cue'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.03.09-10.04.57:004][874]LogBlueprintUserMessages: [variables_C_31] increase dmg by john
+[2024.03.09-10.04.57:204][886]LogBlueprintUserMessages: [variables_C_31] increase dmg by john
+[2024.03.09-10.04.57:454][901]LogBlueprintUserMessages: [variables_C_31] increase dmg by john
+[2024.03.09-10.04.57:754][919]LogBlueprintUserMessages: [variables_C_31] increase dmg by john
+[2024.03.09-10.04.58:037][936]LogBlueprintUserMessages: [variables_C_31] increase dmg by john
+[2024.03.09-10.04.58:960][990]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.09-10.04.58:961][990]LogWorld: BeginTearingDown for /Game/Menu/InterfaceLevel/UEDPIE_0_ShopMenu
+[2024.03.09-10.04.58:961][990]LogWorld: UWorld::CleanupWorld for ShopMenu, bSessionEnded=true, bCleanupResources=true
+[2024.03.09-10.04.58:961][990]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.09-10.04.58:964][990]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.09-10.04.58:970][990]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.09-10.04.58:993][990]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.09-10.04.58:993][990]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 33
+[2024.03.09-10.04.58:993][990]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=33
+[2024.03.09-10.04.58:995][990]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=33
+[2024.03.09-10.04.59:007][990]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2024.03.09-10.04.59:049][992]LogPlayLevel: Display: Destroying online subsystem :Context_35
+[2024.03.09-10.05.05:704][288]LogBlueprint: Warning: [AssetLog] C:\Users\FAHUT\Documents\GitHub\Brew-or-Bang\Brew_or_Bang 5.3\Content\Menu\Widget\UI_ShopMenu.uasset: [Compiler] Pasted node  CustomEvent   conflicted with  HPLevelDisplayUpdoot  and was replaced as a Custom Event!
+[2024.03.09-10.05.48:100][131]BlueprintLog: New page: Compile UI_ShopMenu
+[2024.03.09-10.05.48:162][131]LogUObjectHash: Compacting FUObjectHashTables data took   2.12ms
+[2024.03.09-10.06.45:681][347]LogSlate: Window 'Color Picker' being destroyed
+[2024.03.09-10.06.57:124][414]LogSlate: Window 'Color Picker' being destroyed
+[2024.03.09-10.06.58:029][459]BlueprintLog: New page: Compile UI_ShopMenu
+[2024.03.09-10.06.58:092][459]LogUObjectHash: Compacting FUObjectHashTables data took   2.65ms
+[2024.03.09-10.07.00:461][573]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.03.09-10.07.00:471][573]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.09-10.07.00:471][573]PIE: New page: PIE session: ShopMenu (10 มี.ค. 2567 00:07:00)
+[2024.03.09-10.07.00:472][573]LogPlayLevel: Creating play world package: /Game/Menu/InterfaceLevel/UEDPIE_0_ShopMenu
+[2024.03.09-10.07.00:473][573]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001314s)
+[2024.03.09-10.07.00:473][573]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Menu/InterfaceLevel/ShopMenu.ShopMenu to /Game/Menu/InterfaceLevel/UEDPIE_0_ShopMenu.ShopMenu (0.001360s)
+[2024.03.09-10.07.00:494][573]LogUObjectHash: Compacting FUObjectHashTables data took   2.01ms
+[2024.03.09-10.07.00:500][573]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.09-10.07.00:500][573]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.09-10.07.00:500][573]LogAIModule: Creating AISystem for world ShopMenu
+[2024.03.09-10.07.00:501][573]LogPlayLevel: PIE: World Init took: (0.001865s)
+[2024.03.09-10.07.00:501][573]LogAudio: Display: Creating Audio Device:                 Id: 34, Scope: Unique, Realtime: True
+[2024.03.09-10.07.00:501][573]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.09-10.07.00:501][573]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.09-10.07.00:501][573]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.09-10.07.00:501][573]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.09-10.07.00:501][573]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.03.09-10.07.00:501][573]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.03.09-10.07.00:501][573]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.03.09-10.07.00:501][573]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.09-10.07.00:502][573]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.09-10.07.00:502][573]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.09-10.07.00:502][573]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.09-10.07.00:504][573]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.03.09-10.07.00:542][573]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2024.03.09-10.07.00:542][573]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.09-10.07.00:542][573]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.09-10.07.00:542][573]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.09-10.07.00:543][573]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=34
+[2024.03.09-10.07.00:543][573]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=34
+[2024.03.09-10.07.00:546][573]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=34
+[2024.03.09-10.07.00:546][573]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=34
+[2024.03.09-10.07.00:546][573]LogInit: FAudioDevice initialized with ID 34.
+[2024.03.09-10.07.00:546][573]LogAudio: Display: Audio Device (ID: 34) registered with world 'ShopMenu'.
+[2024.03.09-10.07.00:546][573]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 34
+[2024.03.09-10.07.00:549][573]LogLoad: Game class is 'TopDownGameMode_C'
+[2024.03.09-10.07.00:550][573]LogWorld: Bringing World /Game/Menu/InterfaceLevel/UEDPIE_0_ShopMenu.ShopMenu up for play (max tick rate 60) at 2024.03.09-17.07.00
+[2024.03.09-10.07.00:550][573]LogWorld: Bringing up level for play took: 0.000724
+[2024.03.09-10.07.00:552][573]LogOnline: OSS: Created online subsystem instance for: :Context_36
+[2024.03.09-10.07.00:557][573]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.03.09-10.07.00:557][573]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2024.03.09-10.07.00:557][573]PIE: Server logged in
+[2024.03.09-10.07.00:557][573]PIE: Play in editor total start time 0.088 seconds.
+[2024.03.09-10.07.00:561][573]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'shop_cue'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.03.09-10.07.01:183][610]LogBlueprintUserMessages: [variables_C_32] increase dmg by john
+[2024.03.09-10.07.02:500][689]LogBlueprintUserMessages: [variables_C_32] increase dmg by john
+[2024.03.09-10.07.03:168][729]LogBlueprintUserMessages: [variables_C_32] increase dmg by john
+[2024.03.09-10.07.03:351][740]LogBlueprintUserMessages: [variables_C_32] increase dmg by john
+[2024.03.09-10.07.03:517][750]LogBlueprintUserMessages: [variables_C_32] increase dmg by john
+[2024.03.09-10.07.04:661][816]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.09-10.07.04:661][816]LogWorld: BeginTearingDown for /Game/Menu/InterfaceLevel/UEDPIE_0_ShopMenu
+[2024.03.09-10.07.04:661][816]LogWorld: UWorld::CleanupWorld for ShopMenu, bSessionEnded=true, bCleanupResources=true
+[2024.03.09-10.07.04:662][816]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.09-10.07.04:665][816]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.09-10.07.04:670][816]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.09-10.07.04:691][816]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.03.09-10.07.04:692][816]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 34
+[2024.03.09-10.07.04:692][816]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=34
+[2024.03.09-10.07.04:694][816]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=34
+[2024.03.09-10.07.04:703][816]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.09-10.07.04:706][816]LogUObjectHash: Compacting FUObjectHashTables data took   1.90ms
+[2024.03.09-10.07.04:733][817]LogPlayLevel: Display: Destroying online subsystem :Context_36
+[2024.03.09-10.07.24:687][654]BlueprintLog: New page: Compile UI_ShopMenu
+[2024.03.09-10.07.24:745][654]LogUObjectHash: Compacting FUObjectHashTables data took   1.91ms
+[2024.03.09-10.07.26:699][747]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.03.09-10.07.26:709][747]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.09-10.07.26:709][747]PIE: New page: PIE session: ShopMenu (10 มี.ค. 2567 00:07:26)
+[2024.03.09-10.07.26:710][747]LogPlayLevel: Creating play world package: /Game/Menu/InterfaceLevel/UEDPIE_0_ShopMenu
+[2024.03.09-10.07.26:711][747]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001251s)
+[2024.03.09-10.07.26:711][747]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Menu/InterfaceLevel/ShopMenu.ShopMenu to /Game/Menu/InterfaceLevel/UEDPIE_0_ShopMenu.ShopMenu (0.001297s)
+[2024.03.09-10.07.26:736][747]LogUObjectHash: Compacting FUObjectHashTables data took   2.05ms
+[2024.03.09-10.07.26:742][747]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.09-10.07.26:742][747]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.09-10.07.26:743][747]LogAIModule: Creating AISystem for world ShopMenu
+[2024.03.09-10.07.26:743][747]LogPlayLevel: PIE: World Init took: (0.001200s)
+[2024.03.09-10.07.26:743][747]LogAudio: Display: Creating Audio Device:                 Id: 35, Scope: Unique, Realtime: True
+[2024.03.09-10.07.26:743][747]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.09-10.07.26:743][747]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.09-10.07.26:743][747]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.09-10.07.26:743][747]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.09-10.07.26:743][747]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.03.09-10.07.26:743][747]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.03.09-10.07.26:743][747]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.03.09-10.07.26:744][747]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.09-10.07.26:744][747]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.09-10.07.26:744][747]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.09-10.07.26:744][747]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.09-10.07.26:747][747]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.03.09-10.07.26:782][747]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2024.03.09-10.07.26:782][747]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.09-10.07.26:782][747]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.09-10.07.26:782][747]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.09-10.07.26:783][747]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=35
+[2024.03.09-10.07.26:783][747]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=35
+[2024.03.09-10.07.26:786][747]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=35
+[2024.03.09-10.07.26:786][747]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=35
+[2024.03.09-10.07.26:786][747]LogInit: FAudioDevice initialized with ID 35.
+[2024.03.09-10.07.26:786][747]LogAudio: Display: Audio Device (ID: 35) registered with world 'ShopMenu'.
+[2024.03.09-10.07.26:786][747]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 35
+[2024.03.09-10.07.26:789][747]LogLoad: Game class is 'TopDownGameMode_C'
+[2024.03.09-10.07.26:789][747]LogWorld: Bringing World /Game/Menu/InterfaceLevel/UEDPIE_0_ShopMenu.ShopMenu up for play (max tick rate 60) at 2024.03.09-17.07.26
+[2024.03.09-10.07.26:789][747]LogWorld: Bringing up level for play took: 0.000438
+[2024.03.09-10.07.26:792][747]LogOnline: OSS: Created online subsystem instance for: :Context_37
+[2024.03.09-10.07.26:796][747]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.03.09-10.07.26:796][747]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2024.03.09-10.07.26:796][747]PIE: Server logged in
+[2024.03.09-10.07.26:797][747]PIE: Play in editor total start time 0.088 seconds.
+[2024.03.09-10.07.26:800][747]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'shop_cue'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.03.09-10.07.27:577][793]LogBlueprintUserMessages: [variables_C_33] increase dmg by john
+[2024.03.09-10.07.27:960][816]LogBlueprintUserMessages: [variables_C_33] increase dmg by john
+[2024.03.09-10.07.28:293][836]LogBlueprintUserMessages: [variables_C_33] increase dmg by john
+[2024.03.09-10.07.28:794][866]LogBlueprintUserMessages: [variables_C_33] increase dmg by john
+[2024.03.09-10.07.29:227][892]LogBlueprintUserMessages: [variables_C_33] increase dmg by john
+[2024.03.09-10.07.32:541][ 87]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.09-10.07.32:541][ 87]LogWorld: BeginTearingDown for /Game/Menu/InterfaceLevel/UEDPIE_0_ShopMenu
+[2024.03.09-10.07.32:541][ 87]LogWorld: UWorld::CleanupWorld for ShopMenu, bSessionEnded=true, bCleanupResources=true
+[2024.03.09-10.07.32:541][ 87]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.09-10.07.32:544][ 87]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.09-10.07.32:550][ 87]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.09-10.07.32:572][ 87]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.03.09-10.07.32:572][ 87]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 35
+[2024.03.09-10.07.32:572][ 87]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=35
+[2024.03.09-10.07.32:574][ 87]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=35
+[2024.03.09-10.07.32:584][ 87]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.09-10.07.32:587][ 87]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2024.03.09-10.07.32:611][ 88]LogPlayLevel: Display: Destroying online subsystem :Context_37
+[2024.03.09-10.07.33:110][118]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.03.09-10.07.33:120][118]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.09-10.07.33:120][118]PIE: New page: PIE session: ShopMenu (10 มี.ค. 2567 00:07:33)
+[2024.03.09-10.07.33:121][118]LogPlayLevel: Creating play world package: /Game/Menu/InterfaceLevel/UEDPIE_0_ShopMenu
+[2024.03.09-10.07.33:122][118]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001291s)
+[2024.03.09-10.07.33:122][118]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Menu/InterfaceLevel/ShopMenu.ShopMenu to /Game/Menu/InterfaceLevel/UEDPIE_0_ShopMenu.ShopMenu (0.001334s)
+[2024.03.09-10.07.33:144][118]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2024.03.09-10.07.33:145][118]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.09-10.07.33:145][118]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.09-10.07.33:146][118]LogAIModule: Creating AISystem for world ShopMenu
+[2024.03.09-10.07.33:147][118]LogPlayLevel: PIE: World Init took: (0.001396s)
+[2024.03.09-10.07.33:147][118]LogAudio: Display: Creating Audio Device:                 Id: 36, Scope: Unique, Realtime: True
+[2024.03.09-10.07.33:147][118]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.09-10.07.33:147][118]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.09-10.07.33:147][118]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.09-10.07.33:147][118]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.09-10.07.33:147][118]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.03.09-10.07.33:147][118]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.03.09-10.07.33:147][118]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.03.09-10.07.33:147][118]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.09-10.07.33:147][118]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.09-10.07.33:147][118]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.09-10.07.33:147][118]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.09-10.07.33:149][118]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.03.09-10.07.33:184][118]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2024.03.09-10.07.33:185][118]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.09-10.07.33:185][118]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.09-10.07.33:185][118]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.09-10.07.33:186][118]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=36
+[2024.03.09-10.07.33:186][118]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=36
+[2024.03.09-10.07.33:189][118]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=36
+[2024.03.09-10.07.33:189][118]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=36
+[2024.03.09-10.07.33:189][118]LogInit: FAudioDevice initialized with ID 36.
+[2024.03.09-10.07.33:189][118]LogAudio: Display: Audio Device (ID: 36) registered with world 'ShopMenu'.
+[2024.03.09-10.07.33:189][118]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 36
+[2024.03.09-10.07.33:192][118]LogLoad: Game class is 'TopDownGameMode_C'
+[2024.03.09-10.07.33:193][118]LogWorld: Bringing World /Game/Menu/InterfaceLevel/UEDPIE_0_ShopMenu.ShopMenu up for play (max tick rate 60) at 2024.03.09-17.07.33
+[2024.03.09-10.07.33:193][118]LogWorld: Bringing up level for play took: 0.000593
+[2024.03.09-10.07.33:195][118]LogOnline: OSS: Created online subsystem instance for: :Context_38
+[2024.03.09-10.07.33:199][118]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.03.09-10.07.33:200][118]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2024.03.09-10.07.33:200][118]PIE: Server logged in
+[2024.03.09-10.07.33:201][118]PIE: Play in editor total start time 0.08 seconds.
+[2024.03.09-10.07.33:203][118]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'shop_cue'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.03.09-10.07.33:875][158]LogBlueprintUserMessages: [variables_C_34] increase dmg by john
+[2024.03.09-10.07.34:825][215]LogBlueprintUserMessages: [variables_C_34] increase dmg by john
+[2024.03.09-10.07.35:492][255]LogBlueprintUserMessages: [variables_C_34] increase dmg by john
+[2024.03.09-10.07.35:659][265]LogBlueprintUserMessages: [variables_C_34] increase dmg by john
+[2024.03.09-10.07.35:976][284]LogBlueprintUserMessages: [variables_C_34] increase dmg by john
+[2024.03.09-10.07.36:831][333]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.09-10.07.36:831][333]LogWorld: BeginTearingDown for /Game/Menu/InterfaceLevel/UEDPIE_0_ShopMenu
+[2024.03.09-10.07.36:831][333]LogWorld: UWorld::CleanupWorld for ShopMenu, bSessionEnded=true, bCleanupResources=true
+[2024.03.09-10.07.36:831][333]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.09-10.07.36:834][333]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.09-10.07.36:840][333]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.09-10.07.36:862][333]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.09-10.07.36:862][333]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 36
+[2024.03.09-10.07.36:862][333]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=36
+[2024.03.09-10.07.36:864][333]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=36
+[2024.03.09-10.07.36:875][333]LogUObjectHash: Compacting FUObjectHashTables data took   2.26ms
+[2024.03.09-10.07.36:901][334]LogPlayLevel: Display: Destroying online subsystem :Context_38
+[2024.03.09-10.07.51:961][700]LogSlate: Window 'Color Picker' being destroyed
+[2024.03.09-10.08.00:238][787]LogSlate: Window 'Color Picker' being destroyed
+[2024.03.09-10.08.01:312][840]BlueprintLog: New page: Compile UI_ShopMenu
+[2024.03.09-10.08.01:371][840]LogUObjectHash: Compacting FUObjectHashTables data took   2.10ms
+[2024.03.09-10.08.03:242][925]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.03.09-10.08.03:256][925]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.09-10.08.03:256][925]PIE: New page: PIE session: ShopMenu (10 มี.ค. 2567 00:08:03)
+[2024.03.09-10.08.03:257][925]LogPlayLevel: Creating play world package: /Game/Menu/InterfaceLevel/UEDPIE_0_ShopMenu
+[2024.03.09-10.08.03:259][925]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001331s)
+[2024.03.09-10.08.03:259][925]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Menu/InterfaceLevel/ShopMenu.ShopMenu to /Game/Menu/InterfaceLevel/UEDPIE_0_ShopMenu.ShopMenu (0.001381s)
+[2024.03.09-10.08.03:282][925]LogUObjectHash: Compacting FUObjectHashTables data took   2.78ms
+[2024.03.09-10.08.03:288][925]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.09-10.08.03:288][925]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.09-10.08.03:289][925]LogAIModule: Creating AISystem for world ShopMenu
+[2024.03.09-10.08.03:289][925]LogPlayLevel: PIE: World Init took: (0.001368s)
+[2024.03.09-10.08.03:289][925]LogAudio: Display: Creating Audio Device:                 Id: 37, Scope: Unique, Realtime: True
+[2024.03.09-10.08.03:289][925]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.09-10.08.03:289][925]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.09-10.08.03:289][925]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.09-10.08.03:289][925]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.09-10.08.03:289][925]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.03.09-10.08.03:289][925]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.03.09-10.08.03:289][925]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.03.09-10.08.03:289][925]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.09-10.08.03:290][925]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.09-10.08.03:290][925]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.09-10.08.03:290][925]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.09-10.08.03:293][925]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.03.09-10.08.03:329][925]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2024.03.09-10.08.03:329][925]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.09-10.08.03:329][925]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.09-10.08.03:329][925]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.09-10.08.03:330][925]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=37
+[2024.03.09-10.08.03:330][925]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=37
+[2024.03.09-10.08.03:333][925]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=37
+[2024.03.09-10.08.03:333][925]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=37
+[2024.03.09-10.08.03:333][925]LogInit: FAudioDevice initialized with ID 37.
+[2024.03.09-10.08.03:333][925]LogAudio: Display: Audio Device (ID: 37) registered with world 'ShopMenu'.
+[2024.03.09-10.08.03:333][925]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 37
+[2024.03.09-10.08.03:336][925]LogLoad: Game class is 'TopDownGameMode_C'
+[2024.03.09-10.08.03:337][925]LogWorld: Bringing World /Game/Menu/InterfaceLevel/UEDPIE_0_ShopMenu.ShopMenu up for play (max tick rate 60) at 2024.03.09-17.08.03
+[2024.03.09-10.08.03:337][925]LogWorld: Bringing up level for play took: 0.000433
+[2024.03.09-10.08.03:341][925]LogOnline: OSS: Created online subsystem instance for: :Context_39
+[2024.03.09-10.08.03:346][925]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.03.09-10.08.03:346][925]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2024.03.09-10.08.03:346][925]PIE: Server logged in
+[2024.03.09-10.08.03:347][925]PIE: Play in editor total start time 0.091 seconds.
+[2024.03.09-10.08.03:349][925]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'shop_cue'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.03.09-10.08.04:191][975]LogBlueprintUserMessages: [variables_C_35] Max Health:6
+[2024.03.09-10.08.04:877][ 16]LogBlueprintUserMessages: [variables_C_35] Max Health:7
+[2024.03.09-10.08.06:427][109]LogBlueprintUserMessages: [variables_C_35] increase dmg by john
+[2024.03.09-10.08.06:994][143]LogBlueprintUserMessages: [variables_C_35] increase dmg by john
+[2024.03.09-10.08.12:761][487]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.09-10.08.12:761][487]LogWorld: BeginTearingDown for /Game/Menu/InterfaceLevel/UEDPIE_0_ShopMenu
+[2024.03.09-10.08.12:761][487]LogWorld: UWorld::CleanupWorld for ShopMenu, bSessionEnded=true, bCleanupResources=true
+[2024.03.09-10.08.12:761][487]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.09-10.08.12:765][487]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.09-10.08.12:769][487]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.09-10.08.12:793][487]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.03.09-10.08.12:794][487]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 37
+[2024.03.09-10.08.12:794][487]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=37
+[2024.03.09-10.08.12:796][487]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=37
+[2024.03.09-10.08.12:804][487]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.09-10.08.12:807][487]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2024.03.09-10.08.12:834][488]LogPlayLevel: Display: Destroying online subsystem :Context_39
+[2024.03.09-10.08.45:808][ 83]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.03.09-10.08.45:817][ 83]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.09-10.08.45:817][ 83]PIE: New page: PIE session: ShopMenu (10 มี.ค. 2567 00:08:45)
+[2024.03.09-10.08.45:819][ 83]LogPlayLevel: Creating play world package: /Game/Menu/InterfaceLevel/UEDPIE_0_ShopMenu
+[2024.03.09-10.08.45:820][ 83]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001638s)
+[2024.03.09-10.08.45:820][ 83]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Menu/InterfaceLevel/ShopMenu.ShopMenu to /Game/Menu/InterfaceLevel/UEDPIE_0_ShopMenu.ShopMenu (0.001692s)
+[2024.03.09-10.08.45:843][ 83]LogUObjectHash: Compacting FUObjectHashTables data took   2.54ms
+[2024.03.09-10.08.45:845][ 83]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.09-10.08.45:845][ 83]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.09-10.08.45:846][ 83]LogAIModule: Creating AISystem for world ShopMenu
+[2024.03.09-10.08.45:846][ 83]LogPlayLevel: PIE: World Init took: (0.001363s)
+[2024.03.09-10.08.45:846][ 83]LogAudio: Display: Creating Audio Device:                 Id: 38, Scope: Unique, Realtime: True
+[2024.03.09-10.08.45:847][ 83]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.09-10.08.45:847][ 83]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.09-10.08.45:847][ 83]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.09-10.08.45:847][ 83]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.09-10.08.45:847][ 83]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.03.09-10.08.45:847][ 83]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.03.09-10.08.45:847][ 83]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.03.09-10.08.45:847][ 83]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.09-10.08.45:847][ 83]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.09-10.08.45:847][ 83]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.09-10.08.45:847][ 83]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.09-10.08.45:850][ 83]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.03.09-10.08.45:889][ 83]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2024.03.09-10.08.45:890][ 83]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.09-10.08.45:890][ 83]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.09-10.08.45:890][ 83]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.09-10.08.45:893][ 83]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=38
+[2024.03.09-10.08.45:893][ 83]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=38
+[2024.03.09-10.08.45:895][ 83]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=38
+[2024.03.09-10.08.45:895][ 83]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=38
+[2024.03.09-10.08.45:897][ 83]LogInit: FAudioDevice initialized with ID 38.
+[2024.03.09-10.08.45:897][ 83]LogAudio: Display: Audio Device (ID: 38) registered with world 'ShopMenu'.
+[2024.03.09-10.08.45:897][ 83]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 38
+[2024.03.09-10.08.45:900][ 83]LogLoad: Game class is 'TopDownGameMode_C'
+[2024.03.09-10.08.45:900][ 83]LogWorld: Bringing World /Game/Menu/InterfaceLevel/UEDPIE_0_ShopMenu.ShopMenu up for play (max tick rate 60) at 2024.03.09-17.08.45
+[2024.03.09-10.08.45:900][ 83]LogWorld: Bringing up level for play took: 0.000409
+[2024.03.09-10.08.45:905][ 83]LogOnline: OSS: Created online subsystem instance for: :Context_40
+[2024.03.09-10.08.45:910][ 83]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.03.09-10.08.45:911][ 83]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2024.03.09-10.08.45:911][ 83]PIE: Server logged in
+[2024.03.09-10.08.45:912][ 83]PIE: Play in editor total start time 0.094 seconds.
+[2024.03.09-10.08.45:915][ 83]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'shop_cue'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.03.09-10.08.49:118][253]LogBlueprintUserMessages: [variables_C_36] Max Health:6
+[2024.03.09-10.08.50:593][316]LogBlueprintUserMessages: [variables_C_36] increase dmg by john
+[2024.03.09-10.08.51:567][363]LogBlueprintUserMessages: [variables_C_36] increase dmg by john
+[2024.03.09-10.08.52:993][424]LogBlueprintUserMessages: [variables_C_36] Max Health:7
+[2024.03.09-10.09.45:275][836]LogSlate: Window 'variables' being destroyed
+[2024.03.09-10.09.45:289][836]LogSlate: Window 'variables' being destroyed
+[2024.03.09-10.09.45:555][836]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2024.03.09-10.09.45:555][836]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.09-10.09.45:577][836]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2024.03.09-10.09.45:577][836]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.09-10.09.45:784][836]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2024.03.09-10.09.45:784][836]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.09-10.09.48:891][989]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.09-10.09.48:891][989]LogWorld: BeginTearingDown for /Game/Menu/InterfaceLevel/UEDPIE_0_ShopMenu
+[2024.03.09-10.09.48:891][989]LogWorld: UWorld::CleanupWorld for ShopMenu, bSessionEnded=true, bCleanupResources=true
+[2024.03.09-10.09.48:891][989]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.09-10.09.48:894][989]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.09-10.09.48:899][989]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.09-10.09.48:924][989]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.09-10.09.48:924][989]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 38
+[2024.03.09-10.09.48:924][989]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=38
+[2024.03.09-10.09.48:926][989]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=38
+[2024.03.09-10.09.48:947][989]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2024.03.09-10.09.48:981][990]LogPlayLevel: Display: Destroying online subsystem :Context_40
+[2024.03.09-10.09.49:588][ 24]LogUObjectHash: Compacting FUObjectHashTables data took   1.94ms
+[2024.03.09-10.09.49:603][ 24]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.09-10.09.49:710][ 24]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Menu/Widget/UI_ShopMenu" FILE="C:/Users/FAHUT/Documents/GitHub/Brew-or-Bang/Brew_or_Bang 5.3/Content/Menu/Widget/UI_ShopMenu.uasset" SILENT=true
+[2024.03.09-10.09.49:779][ 24]LogSavePackage: Moving output files for package: /Game/Menu/Widget/UI_ShopMenu
+[2024.03.09-10.09.49:779][ 24]LogSavePackage: Moving 'C:/Users/FAHUT/Documents/GitHub/Brew-or-Bang/Brew_or_Bang 5.3/Saved/UI_ShopMenuCD3A2D9440FF79FD488B7F8712EEBD72.tmp' to 'C:/Users/FAHUT/Documents/GitHub/Brew-or-Bang/Brew_or_Bang 5.3/Content/Menu/Widget/UI_ShopMenu.uasset'
+[2024.03.09-10.09.49:802][ 24]LogFileHelpers: InternalPromptForCheckoutAndSave took 198 ms (total: 540 ms)
+[2024.03.09-10.09.49:816][ 24]AssetCheck: New page: Asset Save: UI_ShopMenu
+[2024.03.09-10.09.49:816][ 24]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Menu/Widget/UI_ShopMenu.UI_ShopMenu
