@@ -2922,3 +2922,19 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.03.10-06.48.26:460][400]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Character/Enemy/Boss_Auto4
 [2024.03.10-06.48.26:460][400]LogSavePackage: Moving 'C:/Users/FAHUT/Documents/GitHub/Brew-or-Bang/Brew_or_Bang 5.3/Saved/Boss_Auto4B0A9E44848C0C5D614080CBDFD32D671.tmp' to 'C:/Users/FAHUT/Documents/GitHub/Brew-or-Bang/Brew_or_Bang 5.3/Saved/Autosaves/Game/Character/Enemy/Boss_Auto4.uasset'
 [2024.03.10-06.48.26:462][400]LogFileHelpers: Auto-saving content packages took 0.155
+[2024.03.10-06.48.32:174][493]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2024.03.10-06.48.32:185][493]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.10-06.48.32:268][493]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_AI/BP_EnemyBase" FILE="C:/Users/FAHUT/Documents/GitHub/Brew-or-Bang/Brew_or_Bang 5.3/Content/_AI/BP_EnemyBase.uasset" SILENT=true
+[2024.03.10-06.48.32:286][493]LogSavePackage: Moving output files for package: /Game/_AI/BP_EnemyBase
+[2024.03.10-06.48.32:287][493]LogSavePackage: Moving 'C:/Users/FAHUT/Documents/GitHub/Brew-or-Bang/Brew_or_Bang 5.3/Saved/BP_EnemyBase13F7B0EC49866C553748B0985DB4A576.tmp' to 'C:/Users/FAHUT/Documents/GitHub/Brew-or-Bang/Brew_or_Bang 5.3/Content/_AI/BP_EnemyBase.uasset'
+[2024.03.10-06.48.32:294][493]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Menu/Widget/HUD" FILE="C:/Users/FAHUT/Documents/GitHub/Brew-or-Bang/Brew_or_Bang 5.3/Content/Menu/Widget/HUD.uasset" SILENT=true
+[2024.03.10-06.48.32:310][493]LogSavePackage: Moving output files for package: /Game/Menu/Widget/HUD
+[2024.03.10-06.48.32:311][493]LogSavePackage: Moving 'C:/Users/FAHUT/Documents/GitHub/Brew-or-Bang/Brew_or_Bang 5.3/Saved/HUD52FA508E4CEF7BCF90946A992118895D.tmp' to 'C:/Users/FAHUT/Documents/GitHub/Brew-or-Bang/Brew_or_Bang 5.3/Content/Menu/Widget/HUD.uasset'
+[2024.03.10-06.48.32:312][493]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/Enemy/Boss" FILE="C:/Users/FAHUT/Documents/GitHub/Brew-or-Bang/Brew_or_Bang 5.3/Content/Character/Enemy/Boss.uasset" SILENT=true
+[2024.03.10-06.48.32:327][493]LogSavePackage: Moving output files for package: /Game/Character/Enemy/Boss
+[2024.03.10-06.48.32:328][493]LogSavePackage: Moving 'C:/Users/FAHUT/Documents/GitHub/Brew-or-Bang/Brew_or_Bang 5.3/Saved/Boss7194D7244D7B8255229AF8AC6B9824D4.tmp' to 'C:/Users/FAHUT/Documents/GitHub/Brew-or-Bang/Brew_or_Bang 5.3/Content/Character/Enemy/Boss.uasset'
+[2024.03.10-06.48.32:344][493]LogFileHelpers: InternalPromptForCheckoutAndSave took 159 ms (total: 1.07 sec)
+[2024.03.10-06.48.32:360][493]AssetCheck: New page: Asset Save: multiple assets
+[2024.03.10-06.48.32:360][493]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/_AI/BP_EnemyBase.BP_EnemyBase
+[2024.03.10-06.48.32:361][493]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Menu/Widget/HUD.HUD
+[2024.03.10-06.48.32:362][493]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Character/Enemy/Boss.Boss
