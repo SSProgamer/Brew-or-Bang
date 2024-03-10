@@ -1,0 +1,497 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+	<RuntimeProperties>
+		<CrashVersion>3</CrashVersion>
+		<ExecutionGuid>CAC6FD1D4C8FF23B6D486B9842E9559A</ExecutionGuid>
+		<CrashGUID>UECC-Windows-68F1F16B40BCAD3BF264438D7A90A7B3_0000</CrashGUID>
+		<IsEnsure>true</IsEnsure>
+		<IsStall>false</IsStall>
+		<IsAssert>false</IsAssert>
+		<CrashType>Ensure</CrashType>
+		<ErrorMessage>Ensure condition failed: LocalState.GetWriterThreadId() == CurrentThreadId [File:D:\build\++UE5\Sync\Engine\Source\Runtime\Core\Public\Misc\MTAccessDetector.h] [Line: 589] Data race detected: acquiring write access on thread 11136 concurrently with 1 writers on thread 13724: Current thread 11136 callstack: 0x00007ffd7f3ead40 UnrealEditor-Core.dll!UnknownFunction [] 0x00007ffd80000f2a UnrealEditor-Core.dll!UnknownFunction [] 0x00007ffd7f3cbf34 UnrealEditor-Core.dll!UnknownFunction [] 0x00007ffd7f7d8f7b UnrealEditor-Core.dll!UnknownFunction [] 0x00007ffd7f8059ec UnrealEditor-Core.dll!UnknownFunction [] 0x00007ffd7f804184 UnrealEditor-Core.dll!UnknownFunction [] 0x00007ffd7f80455e UnrealEditor-Core.dll!UnknownFunction [] 0x0000024c639dc463 UnrealEditor-InputBlueprintNodes.dll!UnknownFunction [] 0x00007ffd7f805954 UnrealEditor-Core.dll!UnknownFunction [] 0x00007ffd854e87ee UnrealEditor-Projects.dll!UnknownFunction [] 0x00007ffd855056c3 UnrealEditor-Projects.dll!UnknownFunction [] 0x00007ffd854e801a UnrealEditor-Projects.dll!UnknownFunction [] 0x00007ff6c87f2463 UnrealEditor.exe!UnknownFunction [] 0x00007ff6c87f634f UnrealEditor.exe!UnknownFunction [] 0x00007ff6c87ecfb6 UnrealEditor.exe!UnknownFunction [] 0x00007ff6c87ed37a UnrealEditor.exe!UnknownFunction [] 0x00007ff6c87f0854 UnrealEditor.exe!UnknownFunction [] 0x00007ff6c8806984 UnrealEditor.exe!UnknownFunction [] 0x00007ff6c8809d7a UnrealEditor.exe!UnknownFunction [] 0x00007ffdd5e17344 KERNEL32.DLL!UnknownFunction [] 0x00007ffdd61226b1 ntdll.dll!UnknownFunction [] Writer thread 13724 callstack: 0x00007ffdd616d064 ntdll.dll!UnknownFunction [] 0x00007ffdd3c930ce KERNELBASE.dll!UnknownFunction [] 0x00007ffd7fa5258e UnrealEditor-Core.dll!UnknownFunction [] 0x00007ffd7f40e1bb UnrealEditor-Core.dll!UnknownFunction [] 0x00007ffd7f410a77 UnrealEditor-Core.dll!UnknownFunction [] 0x00007ffd7f3d8b60 UnrealEditor-Core.dll!UnknownFunction [] 0x00007ffd7f5bf773 UnrealEditor-Core.dll!UnknownFunction [] 0x00007ffd7f9f4e32 UnrealEditor-Core.dll!Unk</ErrorMessage>
+		<CrashReporterMessage />
+		<AttendedStatus>Attended</AttendedStatus>
+		<ProcessId>29312</ProcessId>
+		<SecondsSinceStart>0</SecondsSinceStart>
+		<IsInternalBuild>false</IsInternalBuild>
+		<IsPerforceBuild>false</IsPerforceBuild>
+		<IsWithDebugInfo>true</IsWithDebugInfo>
+		<IsSourceDistribution>false</IsSourceDistribution>
+		<GameName>UE-Brew_or_Bang</GameName>
+		<ExecutableName>UnrealEditor</ExecutableName>
+		<BuildConfiguration>Development</BuildConfiguration>
+		<GameSessionID />
+		<PlatformName>WindowsEditor</PlatformName>
+		<PlatformFullName>Win64 [Windows 10 (22H2) [10.0.19045.4046]  64b]</PlatformFullName>
+		<PlatformNameIni>Windows</PlatformNameIni>
+		<EngineMode>Editor</EngineMode>
+		<EngineModeEx>Unset</EngineModeEx>
+		<DeploymentName />
+		<EngineVersion>5.3.2-29314046+++UE5+Release-5.3</EngineVersion>
+		<EngineCompatibleVersion>5.3.2-29314046+++UE5+Release-5.3</EngineCompatibleVersion>
+		<CommandLine>CommandLineRemoved</CommandLine>
+		<LanguageLCID>0</LanguageLCID>
+		<AppDefaultLocale>en-US</AppDefaultLocale>
+		<BuildVersion>++UE5+Release-5.3-CL-29314046</BuildVersion>
+		<Symbols>**UE5*Release-5.3-CL-29314046-Win64-Development</Symbols>
+		<IsUERelease>true</IsUERelease>
+		<IsRequestingExit>false</IsRequestingExit>
+		<UserName />
+		<BaseDir>E:/Games/UE_5.3/Engine/Binaries/Win64/</BaseDir>
+		<RootDir>E:/Games/UE_5.3/</RootDir>
+		<MachineId>F8DCBE5B454F2EE5BA2D9EA3197078C1</MachineId>
+		<LoginId>f8dcbe5b454f2ee5ba2d9ea3197078c1</LoginId>
+		<EpicAccountId>faa684ecf6264eb1bd739eb28bfacb14</EpicAccountId>
+		<SourceContext />
+		<UserDescription>Sent in the unattended mode</UserDescription>
+		<UserActivityHint />
+		<CrashDumpMode>0</CrashDumpMode>
+		<GameStateName />
+		<Misc.NumberOfCores>4</Misc.NumberOfCores>
+		<Misc.NumberOfCoresIncludingHyperthreads>8</Misc.NumberOfCoresIncludingHyperthreads>
+		<Misc.Is64bitOperatingSystem>1</Misc.Is64bitOperatingSystem>
+		<Misc.CPUVendor>GenuineIntel</Misc.CPUVendor>
+		<Misc.CPUBrand>Intel(R) Core(TM) i5-10300H CPU @ 2.50GHz</Misc.CPUBrand>
+		<Misc.PrimaryGPUBrand>Intel(R) UHD Graphics</Misc.PrimaryGPUBrand>
+		<Misc.OSVersionMajor>Windows 10 (22H2) [10.0.19045.4046]</Misc.OSVersionMajor>
+		<Misc.OSVersionMinor />
+		<MemoryStats.TotalPhysical>16956612608</MemoryStats.TotalPhysical>
+		<MemoryStats.TotalVirtual>30378385408</MemoryStats.TotalVirtual>
+		<MemoryStats.PageSize>4096</MemoryStats.PageSize>
+		<MemoryStats.TotalPhysicalGB>16</MemoryStats.TotalPhysicalGB>
+		<MemoryStats.AvailablePhysical>3013263360</MemoryStats.AvailablePhysical>
+		<MemoryStats.AvailableVirtual>10965323776</MemoryStats.AvailableVirtual>
+		<MemoryStats.UsedPhysical>1114550272</MemoryStats.UsedPhysical>
+		<MemoryStats.PeakUsedPhysical>1114562560</MemoryStats.PeakUsedPhysical>
+		<MemoryStats.UsedVirtual>1263042560</MemoryStats.UsedVirtual>
+		<MemoryStats.PeakUsedVirtual>1263083520</MemoryStats.PeakUsedVirtual>
+		<MemoryStats.bIsOOM>0</MemoryStats.bIsOOM>
+		<MemoryStats.OOMAllocationSize>0</MemoryStats.OOMAllocationSize>
+		<MemoryStats.OOMAllocationAlignment>0</MemoryStats.OOMAllocationAlignment>
+		<NumMinidumpFramesToIgnore>7</NumMinidumpFramesToIgnore>
+		<CallStack>UnrealEditor_Core
+UnrealEditor_Core
+UnrealEditor_Core
+UnrealEditor_Core
+UnrealEditor_Core
+UnrealEditor_InputBlueprintNodes
+UnrealEditor_Core
+UnrealEditor_Projects
+UnrealEditor_Projects
+UnrealEditor_Projects
+UnrealEditor
+UnrealEditor
+UnrealEditor
+UnrealEditor
+UnrealEditor
+UnrealEditor
+UnrealEditor
+kernel32
+ntdll</CallStack>
+		<PCallStack>UnrealEditor-Core 0x00007ffd7f370000 + 5bf34 UnrealEditor-Core 0x00007ffd7f370000 + 468f7b UnrealEditor-Core 0x00007ffd7f370000 + 4959ec UnrealEditor-Core 0x00007ffd7f370000 + 494184 UnrealEditor-Core 0x00007ffd7f370000 + 49455e UnrealEditor-InputBlueprintNodes 0x0000024c639c0000 + 1c463 UnrealEditor-Core 0x00007ffd7f370000 + 495954 UnrealEditor-Projects 0x00007ffd854b0000 + 387ee UnrealEditor-Projects 0x00007ffd854b0000 + 556c3 UnrealEditor-Projects 0x00007ffd854b0000 + 3801a UnrealEditor 0x00007ff6c87c0000 + 32463 UnrealEditor 0x00007ff6c87c0000 + 3634f UnrealEditor 0x00007ff6c87c0000 + 2cfb6 UnrealEditor 0x00007ff6c87c0000 + 2d37a UnrealEditor 0x00007ff6c87c0000 + 30854 UnrealEditor 0x00007ff6c87c0000 + 46984 UnrealEditor 0x00007ff6c87c0000 + 49d7a KERNEL32 0x00007ffdd5e00000 + 17344 ntdll 0x00007ffdd60d0000 + 526b1</PCallStack>
+		<PCallStackHash>ADC1689F0CC846842F975F73CA2F4144EBC7C847</PCallStackHash>
+		<Threads>
+			<Thread>
+				<CallStack>KERNELBASE 0x00007ffdd3c70000 + 2cf19 UnrealEditor-Core 0x00007ffd7f370000 + 6038f8 UnrealEditor-Core 0x00007ffd7f370000 + 60372b UnrealEditor-Core 0x00007ffd7f370000 + 3a64a7 UnrealEditor-Core 0x00007ffd7f370000 + 3bf325 UnrealEditor-Core 0x00007ffd7f370000 + c996f2 UnrealEditor-Core 0x00007ffd7f370000 + c90fa8 UnrealEditor-Core 0x00007ffd7f370000 + 5bf34 UnrealEditor-Core 0x00007ffd7f370000 + 468f7b UnrealEditor-Core 0x00007ffd7f370000 + 4959ec UnrealEditor-Core 0x00007ffd7f370000 + 494184 UnrealEditor-Core 0x00007ffd7f370000 + 49455e UnrealEditor-InputBlueprintNodes 0x0000024c639c0000 + 1c463 UnrealEditor-Core 0x00007ffd7f370000 + 495954 UnrealEditor-Projects 0x00007ffd854b0000 + 387ee UnrealEditor-Projects 0x00007ffd854b0000 + 556c3 UnrealEditor-Projects 0x00007ffd854b0000 + 3801a UnrealEditor 0x00007ff6c87c0000 + 32463 UnrealEditor 0x00007ff6c87c0000 + 3634f UnrealEditor 0x00007ff6c87c0000 + 2cfb6 UnrealEditor 0x00007ff6c87c0000 + 2d37a UnrealEditor 0x00007ff6c87c0000 + 30854 UnrealEditor 0x00007ff6c87c0000 + 46984 UnrealEditor 0x00007ff6c87c0000 + 49d7a KERNEL32 0x00007ffdd5e00000 + 17344 ntdll 0x00007ffdd60d0000 + 526b1</CallStack>
+				<IsCrashed>true</IsCrashed>
+				<Registers />
+				<ThreadID>11136</ThreadID>
+				<ThreadName>GameThread</ThreadName>
+			</Thread>
+		</Threads>
+		<TimeOfCrash>638456518043050000</TimeOfCrash>
+		<bAllowToBeContacted>1</bAllowToBeContacted>
+		<CPUBrand>Intel(R) Core(TM) i5-10300H CPU @ 2.50GHz</CPUBrand>
+		<CrashReportClientVersion>1.0</CrashReportClientVersion>
+		<Modules>E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-LandscapeEditorUtilities.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-ScriptableEditorWidgets.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-WorkspaceMenuStructure.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-AutomationTest.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-AutomationMessages.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-CollisionAnalyzer.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-AutomationController.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-AIGraph.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-SlateReflector.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-GameplayTasksEditor.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-UMGEditor.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-FunctionalTesting.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-BehaviorTreeEditor.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-StringTableEditor.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-Overlay.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-OverlayEditor.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-ClothingSystemRuntimeNv.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-ClothingSystemEditor.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-AnimationDataController.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-WorldPartitionEditor.dll
+E:\Games\UE_5.3\Engine\Plugins\Runtime\AndroidFileServer\Binaries\Win64\UnrealEditor-AndroidFileServer.dll
+E:\Games\UE_5.3\Engine\Plugins\Media\WebMMedia\Binaries\Win64\UnrealEditor-WebMMedia.dll
+E:\Games\UE_5.3\Engine\Plugins\Runtime\WebMMoviePlayer\Binaries\Win64\UnrealEditor-WebMMoviePlayer.dll
+E:\Games\UE_5.3\Engine\Plugins\Runtime\WindowsMoviePlayer\Binaries\Win64\UnrealEditor-WindowsMoviePlayer.dll
+E:\Games\UE_5.3\Engine\Plugins\EnhancedInput\Binaries\Win64\UnrealEditor-EnhancedInput.dll
+E:\Games\UE_5.3\Engine\Plugins\EnhancedInput\Binaries\Win64\UnrealEditor-InputEditor.dll
+E:\Games\UE_5.3\Engine\Plugins\EnhancedInput\Binaries\Win64\UnrealEditor-InputBlueprintNodes.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor.exe
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-NaniteBuilder.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-NaniteUtilities.dll
+E:\Games\UE_5.3\Engine\Plugins\Experimental\ProxyLODPlugin\Binaries\Win64\UnrealEditor-ProxyLODMeshReduction.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-Persona.dll
+E:\Games\UE_5.3\Engine\Plugins\Experimental\SkeletalReduction\Binaries\Win64\UnrealEditor-SkeletalMeshReduction.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\tbb.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-MeshUtilities.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-MetalShaderFormat.dll
+E:\Games\UE_5.3\Engine\Binaries\ThirdParty\ShaderConductor\Win64\ShaderConductor.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-VulkanShaderFormat.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-ShaderFormatOpenGL.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-GeometryProcessingInterfaces.dll
+E:\Games\UE_5.3\Engine\Binaries\ThirdParty\ShaderConductor\Win64\dxcompiler.dll
+E:\Games\UE_5.3\Engine\Binaries\ThirdParty\ShaderConductor\Win64\dxil.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-ShaderFormatD3D.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-ShaderFormatVectorVM.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-VectorVM.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-ShaderPreprocessor.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-ShaderCompilerCommon.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-FileUtilities.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-AudioFormatBink.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-AudioFormatADPCM.dll
+E:\Games\UE_5.3\Engine\Binaries\ThirdParty\Vorbis\Win64\VS2015\libvorbis_64.dll
+E:\Games\UE_5.3\Engine\Binaries\ThirdParty\Ogg\Win64\VS2015\libogg_64.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-AudioFormatOgg.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-AudioFormatOpus.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-WindowsTargetPlatform.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-CookedEditor.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\IOS\UnrealEditor-TVOSTargetPlatform.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-MacTargetPlatform.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\LinuxArm64\UnrealEditor-LinuxArm64TargetPlatform.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-MeshBoneReduction.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-QuadricMeshReduction.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-PinnedCommandList.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\Linux\UnrealEditor-LinuxTargetPlatform.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-MeshReductionInterface.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\IOS\UnrealEditor-IOSTargetPlatform.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\Android\UnrealEditor-AndroidTargetPlatform.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\oo2tex_win64_2.9.10.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\oo2tex_win64_2.9.9.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\oo2tex_win64_2.9.8.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-TargetDeviceServices.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\oo2tex_win64_2.9.7.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\oo2tex_win64_2.9.6.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\oo2tex_win64_2.9.5.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-NullInstallBundleManager.dll
+E:\Games\UE_5.3\Engine\Plugins\Developer\TextureFormatOodle\Binaries\Win64\UnrealEditor-TextureFormatOodle.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-TextureFormatUncompressed.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-TextureFormatIntelISPCTexComp.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-TextureFormatETC2.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-TextureFormatDXT.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-TextureFormatASTC.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-TurnkeySupport.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-LauncherServices.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-TargetPlatform.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-TextureBuild.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-TextureFormat.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-Settings.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-WindowsPlatformFeatures.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-GameplayMediaEncoder.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-AVEncoder.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\D3D12\D3D12Core.dll
+E:\Games\UE_5.3\Engine\Binaries\ThirdParty\NVIDIA\NVaftermath\Win64\GFSDK_Aftermath_Lib.x64.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-D3D12RHI.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-RHICore.dll
+E:\Games\UE_5.3\Engine\Plugins\Enterprise\GLTFExporter\Binaries\Win64\UnrealEditor-GLTFExporter.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-MeshMergeUtilities.dll
+E:\Games\UE_5.3\Engine\Plugins\Enterprise\DatasmithContent\Binaries\Win64\UnrealEditor-DatasmithContent.dll
+E:\Games\UE_5.3\Engine\Plugins\Enterprise\VariantManagerContent\Binaries\Win64\UnrealEditor-VariantManagerContent.dll
+E:\Games\UE_5.3\Engine\Plugins\Runtime\ChunkDownloader\Binaries\Win64\UnrealEditor-ChunkDownloader.dll
+E:\Games\UE_5.3\Engine\Plugins\FX\Niagara\Binaries\Win64\UnrealEditor-NiagaraShader.dll
+E:\Games\UE_5.3\Engine\Plugins\FX\Niagara\Binaries\Win64\UnrealEditor-NiagaraVertexFactories.dll
+E:\Games\UE_5.3\Engine\Plugins\Developer\RenderDocPlugin\Binaries\Win64\UnrealEditor-RenderDocPlugin.dll
+E:\Games\UE_5.3\Engine\Plugins\Experimental\ChaosCloth\Binaries\Win64\UnrealEditor-ChaosCloth.dll
+E:\Games\UE_5.3\Engine\Plugins\Experimental\ChaosCaching\Binaries\Win64\UnrealEditor-ChaosCaching.dll
+E:\Games\UE_5.3\Engine\Plugins\Animation\ACLPlugin\Binaries\Win64\UnrealEditor-ACLPlugin.dll
+E:\Games\UE_5.3\Engine\Plugins\Online\OnlineSubsystemNull\Binaries\Win64\UnrealEditor-OnlineSubsystemNull.dll
+E:\Games\UE_5.3\Engine\Plugins\Online\OnlineSubsystemUtils\Binaries\Win64\UnrealEditor-OnlineSubsystemUtils.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-Voice.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-XMPP.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-WebSockets.dll
+E:\Games\UE_5.3\Engine\Plugins\Online\OnlineSubsystem\Binaries\Win64\UnrealEditor-OnlineSubsystem.dll
+E:\Games\UE_5.3\Engine\Plugins\Online\OnlineServices\Binaries\Win64\UnrealEditor-OnlineServicesCommon.dll
+E:\Games\UE_5.3\Engine\Plugins\Online\OnlineServices\Binaries\Win64\UnrealEditor-OnlineServicesInterface.dll
+E:\Games\UE_5.3\Engine\Plugins\Media\WmfMedia\Binaries\Win64\UnrealEditor-WmfMedia.dll
+E:\Games\UE_5.3\Engine\Plugins\Developer\PlasticSourceControl\Binaries\Win64\UnrealEditor-PlasticSourceControl.dll
+E:\Games\UE_5.3\Engine\Plugins\Developer\PerforceSourceControl\Binaries\Win64\UnrealEditor-PerforceSourceControl.dll
+E:\Games\UE_5.3\Engine\Binaries\ThirdParty\Python3\Win64\python39.dll
+E:\Games\UE_5.3\Engine\Plugins\Experimental\PlatformCrypto\Binaries\Win64\UnrealEditor-PlatformCryptoOpenSSL.dll
+E:\Games\UE_5.3\Engine\Binaries\ThirdParty\DbgHelp\dbghelp.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-AnimationModifiers.dll
+E:\Games\UE_5.3\Engine\Binaries\ThirdParty\libsndfile\Win64\libsndfile-1.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-AudioEditor.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-MessageLog.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-Virtualization.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-SlateRHIRenderer.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-SequenceRecorder.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-DataflowCore.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-GameplayDebugger.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\OpenColorIO_2_2.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-S3Client.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-MovieSceneTools.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-ContentBrowser.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-AIModule.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-GeometryCollectionEngine.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-Sequencer.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-SourceControlWindows.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-DetailCustomizations.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-Renderer.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-EditorStyle.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-Chaos.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-UMG.dll
+E:\Games\UE_5.3\Engine\Plugins\Runtime\WindowsDeviceProfileSelector\Binaries\Win64\UnrealEditor-WindowsDeviceProfileSelector.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-LiveLinkInterface.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-FieldSystemEngine.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-MovieSceneCapture.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-GeometryCore.dll
+E:\Games\UE_5.3\Engine\Plugins\Runtime\ExampleDeviceProfileSelector\Binaries\Win64\UnrealEditor-ExampleDeviceProfileSelector.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-ChaosSolverEngine.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-SequencerCore.dll
+E:\Games\UE_5.3\Engine\Plugins\Developer\PixWinPlugin\Binaries\Win64\UnrealEditor-PixWinPlugin.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-SceneOutliner.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-VirtualTexturingEditor.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-InternationalizationSettings.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-UELibSampleRate.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-ComponentVisualizers.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-ContentBrowserData.dll
+E:\Games\UE_5.3\Engine\Plugins\FX\Niagara\Binaries\Win64\UnrealEditor-NiagaraCore.dll
+E:\Games\UE_5.3\Engine\Plugins\Portal\LauncherChunkInstaller\Binaries\Win64\UnrealEditor-LauncherChunkInstaller.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-Navmesh.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-AnimGraphRuntime.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-KismetWidgets.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-BlueprintGraph.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-MovieSceneTracks.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-MeshConversion.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-IoStoreOnDemand.dll
+E:\Games\UE_5.3\Engine\Plugins\Online\OnlineSubsystemUtils\Binaries\Win64\UnrealEditor-OnlineBlueprintSupport.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-Constraints.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-IrisCore.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-SignalProcessing.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-AVIWriter.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-AudioMixer.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-SequencerWidgets.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-PhysicsCore.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-LevelEditor.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-Engine.dll
+E:\Games\UE_5.3\Engine\Plugins\Online\OnlineServices\Binaries\Win64\UnrealEditor-OnlineServicesCommonEngineUtils.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-AnimationCore.dll
+E:\Games\UE_5.3\Engine\Plugins\Online\OnlineBase\Binaries\Win64\UnrealEditor-OnlineBase.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-AnimationBlueprintLibrary.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-ClassViewer.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-AssetTools.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-Landscape.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-Kismet.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\libfbxsdk.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-GameplayTasks.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-HeadMountedDisplay.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-ToolWidgets.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-GraphEditor.dll
+E:\Games\UE_5.3\Engine\Plugins\Media\WmfMedia\Binaries\Win64\UnrealEditor-WmfMediaFactory.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-InteractiveToolsFramework.dll
+E:\Games\UE_5.3\Engine\Plugins\Media\ImgMedia\Binaries\Win64\UnrealEditor-ExrReaderGpu.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-KismetCompiler.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-NavigationSystem.dll
+E:\Games\UE_5.3\Engine\Plugins\AI\AISupport\Binaries\Win64\UnrealEditor-AISupportModule.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-DesktopWidgets.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-MediaAssets.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-MaterialBaking.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-PhysicsUtilities.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-DerivedDataEditor.dll
+E:\Games\UE_5.3\Engine\Plugins\Experimental\PythonScriptPlugin\Binaries\Win64\UnrealEditor-PythonScriptPluginPreload.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-DataflowEngine.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-EditorConfig.dll
+E:\Games\UE_5.3\Engine\Plugins\Experimental\PlatformCrypto\Binaries\Win64\UnrealEditor-PlatformCrypto.dll
+E:\Games\UE_5.3\Engine\Plugins\Experimental\PlatformCrypto\Binaries\Win64\UnrealEditor-PlatformCryptoTypes.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-ConfigEditor.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-InterchangeCore.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-PropertyEditor.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-Voronoi.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-MeshBuilderCommon.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-OpenColorIOWrapper.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-StatusBar.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-MaterialEditor.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-MeshUtilitiesCommon.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-UnsavedAssetsTracker.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-Localization.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-SubobjectEditor.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-SharedSettingsWidgets.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-CommonMenuExtensions.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-PropertyPath.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-InterchangeEngine.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-TraceServices.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-AdvancedPreviewScene.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-AudioLinkEngine.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-AudioExtensions.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-MeshDescription.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-WidgetCarousel.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-GameplayTags.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-ChaosCore.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-SourceControl.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-MovieScene.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-ImageWrapper.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-ReliabilityHandlerComponent.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-NetCore.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-MeshBuilder.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-WidgetRegistration.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-IoStoreUtilities.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-GameProjectGeneration.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-HardwareTargeting.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-VREditor.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-AnimGraph.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-UnrealEd.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-SoundFieldRendering.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-ViewportInteraction.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-StaticMeshDescription.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-BlueprintEditorLibrary.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-EditorInteractiveToolsFramework.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-TypedElementFramework.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-MaterialShaderQualitySettings.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-AppFramework.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-SubobjectDataInterface.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-ToolMenus.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-PakFileUtilities.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-FoliageEdit.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-MeshUtilitiesEngine.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-SceneDepthPickerMode.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-ActorPickerMode.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-AnalyticsET.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-UncontrolledChangelists.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-VirtualFileCache.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-Networking.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-ClothingSystemRuntimeInterface.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-SkeletalMeshDescription.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-Cbor.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-PIEPreviewDeviceSpecification.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-EditorFramework.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-RSA.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-DirectoryWatcher.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-TextureCompressor.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-AnimationEditMode.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-PacketHandler.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-Icmp.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-TypedElementRuntime.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-Foliage.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-TelemetryUtils.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-AddContentDialog.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-TraceAnalysis.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-Analytics.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-PIEPreviewDeviceProfileSelector.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-EditorWidgets.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-DataLayerEditor.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-DeveloperToolSettings.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-TextureBuildUtilities.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-Zen.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-TimeManagement.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-StatsViewer.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-CurveEditor.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-ClothingSystemRuntimeCommon.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-HTTP.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-XmlParser.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-MaterialUtilities.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-AssetDefinition.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-AudioLinkCore.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-FieldNotification.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-SkeletalMeshUtilitiesCommon.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-CookOnTheFly.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-SSL.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-DerivedDataCache.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-Slate.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-SlateCore.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-Core.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-CoreUObject.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-NetworkReplayStreaming.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-BuildPatchServices.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-RenderCore.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-DeveloperSettings.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-AssetRegistry.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-AudioPlatformConfiguration.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-JsonUtilities.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-PakFile.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-HierarchicalLODUtilities.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-TextureUtilitiesCommon.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-CinematicCamera.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-LevelSequence.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-DesktopPlatform.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-RHI.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-Json.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-ApplicationCore.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-EngineMessages.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-MediaUtils.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-Projects.dll
+E:\Games\UE_5.3\Engine\Plugins\XGEController\Binaries\Win64\UnrealEditor-XGEController.dll
+E:\Games\UE_5.3\Engine\Plugins\FastBuildController\Binaries\Win64\UnrealEditor-FastBuildController.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-NetworkFile.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-StorageServerClient.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-InstallBundleManager.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-CoreOnline.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-AssetTagsEditor.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-EngineSettings.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-PreLoadScreen.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-InputCore.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-ClothingSystemEditorInterface.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-MoviePlayer.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-BSPUtils.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-StreamingFile.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-AudioSettingsEditor.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-RawMesh.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-AudioMixerCore.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-Sockets.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-EditorAnalyticsSession.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-EditorSubsystem.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-ImageWriteQueue.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-ImageCore.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-UnrealEdMessages.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-SandboxFile.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-ScriptDisassembler.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-MRMesh.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-Messaging.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-SourceCodeAccess.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-LiveCoding.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-SwarmInterface.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-IESFile.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-CookMetadata.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\tbbmalloc.dll
+E:\Games\UE_5.3\Engine\Binaries\ThirdParty\Vorbis\Win64\VS2015\libvorbisfile_64.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-EventLoop.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-Media.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-TraceLog.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-ColorManagement.dll
+E:\Games\UE_5.3\Engine\Binaries\ThirdParty\Python3\Win64\python3.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-SerializedRecorderInterface.dll
+E:\Games\UE_5.3\Engine\Binaries\ThirdParty\Windows\WinPixEventRuntime\x64\WinPixEventRuntime.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-MoviePlayerProxy.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-Horde.dll
+E:\Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-BuildSettings.dll</Modules>
+	</RuntimeProperties>
+	<PlatformProperties>
+		<PlatformIsRunningWindows>1</PlatformIsRunningWindows>
+		<IsRunningOnBattery>true</IsRunningOnBattery>
+		<PlatformCallbackResult>0</PlatformCallbackResult>
+		<CrashTrigger>0</CrashTrigger>
+	</PlatformProperties>
+	<EngineData>
+		<MatchingDPStatus>WindowsEditorNo errors</MatchingDPStatus>
+		<RHI.IntegratedGPU>false</RHI.IntegratedGPU>
+		<RHI.DriverDenylisted>false</RHI.DriverDenylisted>
+		<RHI.D3DDebug>false</RHI.D3DDebug>
+		<RHI.Breadcrumbs>true</RHI.Breadcrumbs>
+		<RHI.DRED>false</RHI.DRED>
+		<RHI.DREDMarkersOnly>true</RHI.DREDMarkersOnly>
+		<RHI.DREDContext>false</RHI.DREDContext>
+		<RHI.Aftermath>true</RHI.Aftermath>
+		<RHI.RHIName>D3D12</RHI.RHIName>
+		<RHI.AdapterName>NVIDIA GeForce GTX 1650 Ti</RHI.AdapterName>
+		<RHI.UserDriverVersion>546.33</RHI.UserDriverVersion>
+		<RHI.InternalDriverVersion>31.0.15.4633</RHI.InternalDriverVersion>
+		<RHI.DriverDate>12-6-2023</RHI.DriverDate>
+		<RHI.FeatureLevel>SM5</RHI.FeatureLevel>
+		<RHI.GPUVendor>NVIDIA</RHI.GPUVendor>
+		<RHI.DeviceId>1F95</RHI.DeviceId>
+		<DeviceProfile.Name>WindowsEditor</DeviceProfile.Name>
+	</EngineData>
+	<GameData />
+</FGenericCrashContext>
