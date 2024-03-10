@@ -2938,3 +2938,1138 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.03.10-06.48.32:360][493]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/_AI/BP_EnemyBase.BP_EnemyBase
 [2024.03.10-06.48.32:361][493]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Menu/Widget/HUD.HUD
 [2024.03.10-06.48.32:362][493]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Character/Enemy/Boss.Boss
+[2024.03.10-06.49.23:069][895]LogWorld: UWorld::CleanupWorld for World_46, bSessionEnded=true, bCleanupResources=true
+[2024.03.10-06.49.23:069][895]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.10-06.49.23:087][895]LogWorld: UWorld::CleanupWorld for World_45, bSessionEnded=true, bCleanupResources=true
+[2024.03.10-06.49.23:088][895]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.10-06.49.24:388][934]LogSlate: Window 'Boss' being destroyed
+[2024.03.10-06.49.24:409][934]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2024.03.10-06.49.24:409][934]LogWorld: UWorld::CleanupWorld for World_52, bSessionEnded=true, bCleanupResources=true
+[2024.03.10-06.49.24:409][934]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.10-06.52.05:562][843]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.03.10-06.52.05:587][843]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.10-06.52.05:588][843]PIE: New page: PIE session: stage5 (10 มี.ค. 2567 20:52:05)
+[2024.03.10-06.52.05:588][843]LogPlayLevel: Creating play world package: /Game/level/UEDPIE_0_stage5
+[2024.03.10-06.52.05:629][843]LogPlayLevel: PIE: StaticDuplicateObject took: (0.039414s)
+[2024.03.10-06.52.05:629][843]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/level/stage5.stage5 to /Game/level/UEDPIE_0_stage5.stage5 (0.039577s)
+[2024.03.10-06.52.05:664][843]LogUObjectHash: Compacting FUObjectHashTables data took   2.41ms
+[2024.03.10-06.52.05:680][843]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.10-06.52.05:681][843]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.10-06.52.05:682][843]LogAIModule: Creating AISystem for world stage5
+[2024.03.10-06.52.05:683][843]LogPlayLevel: PIE: World Init took: (0.003865s)
+[2024.03.10-06.52.05:684][843]LogAudio: Display: Creating Audio Device:                 Id: 16, Scope: Unique, Realtime: True
+[2024.03.10-06.52.05:684][843]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.10-06.52.05:684][843]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.10-06.52.05:684][843]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.10-06.52.05:684][843]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.10-06.52.05:684][843]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.03.10-06.52.05:684][843]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.03.10-06.52.05:684][843]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.03.10-06.52.05:684][843]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.10-06.52.05:686][843]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.10-06.52.05:686][843]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.10-06.52.05:686][843]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.10-06.52.05:693][843]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.03.10-06.52.05:753][843]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2024.03.10-06.52.05:754][843]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.10-06.52.05:754][843]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.10-06.52.05:754][843]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.10-06.52.05:755][843]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=16
+[2024.03.10-06.52.05:756][843]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=16
+[2024.03.10-06.52.05:764][843]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=16
+[2024.03.10-06.52.05:764][843]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=16
+[2024.03.10-06.52.05:765][843]LogInit: FAudioDevice initialized with ID 16.
+[2024.03.10-06.52.05:765][843]LogAudio: Display: Audio Device (ID: 16) registered with world 'stage5'.
+[2024.03.10-06.52.05:765][843]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 16
+[2024.03.10-06.52.05:770][843]LogLoad: Game class is 'GameMode'
+[2024.03.10-06.52.05:778][843]LogWorld: Bringing World /Game/level/UEDPIE_0_stage5.stage5 up for play (max tick rate 60) at 2024.03.10-13.52.05
+[2024.03.10-06.52.05:778][843]LogWorld: Bringing up level for play took: 0.007792
+[2024.03.10-06.52.05:794][843]LogOnline: OSS: Created online subsystem instance for: :Context_63
+[2024.03.10-06.52.05:798][843]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.03.10-06.52.05:798][843]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.03.10-06.52.05:798][843]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.03.10-06.52.05:799][843]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.03.10-06.52.05:799][843]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2024.03.10-06.52.05:805][843]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.03.10-06.52.05:805][843]PIE: Server logged in
+[2024.03.10-06.52.05:808][843]PIE: Play in editor total start time 0.222 seconds.
+[2024.03.10-06.52.05:813][843]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'scene5_Cue'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.03.10-06.52.22:662][533]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.10-06.52.22:662][533]LogWorld: BeginTearingDown for /Game/level/UEDPIE_0_stage5
+[2024.03.10-06.52.22:663][533]LogWorld: UWorld::CleanupWorld for stage5, bSessionEnded=true, bCleanupResources=true
+[2024.03.10-06.52.22:664][533]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.10-06.52.22:668][533]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.10-06.52.22:679][533]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.10-06.52.22:703][533]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.10-06.52.22:703][533]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 16
+[2024.03.10-06.52.22:703][533]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2024.03.10-06.52.22:706][533]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=16
+[2024.03.10-06.52.22:725][533]LogUObjectHash: Compacting FUObjectHashTables data took   1.92ms
+[2024.03.10-06.52.22:761][534]LogPlayLevel: Display: Destroying online subsystem :Context_63
+[2024.03.10-06.56.14:648][626]LogInterchangeEngine: [Pending] Importing
+[2024.03.10-06.56.14:648][626]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/FAHUT/Desktop/fireBullet.png]
+[2024.03.10-06.56.14:707][627]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background, due to setting PNGInfill == OnlyOnBinaryTransparency
+[2024.03.10-06.56.14:712][627]LogInterchangeEngine: [Pending] Importing
+[2024.03.10-06.56.14:966][627]LogTexture: Display: Building textures: /Game/Menu/MenuImageAsset/fireBullet.fireBullet (BGRA8, 175x175 x1x1x1) (Required Memory Estimate: 0.958153 MB), EncodeSpeed: Fast
+[2024.03.10-06.56.15:020][628]LogInterchangeEngine: [Success] Import Done
+[2024.03.10-06.56.15:059][628]LogInterchangeEngine: [Success] Import Done
+[2024.03.10-06.56.25:391][761]LogInterchangeEngine: [Pending] Importing
+[2024.03.10-06.56.25:391][761]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/FAHUT/Desktop/iceBullet.png]
+[2024.03.10-06.56.25:392][761]LogInterchangeEngine: [Pending] Importing -  (2)
+[2024.03.10-06.56.25:392][761]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/FAHUT/Desktop/normalBullet.png]
+[2024.03.10-06.56.25:415][762]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background, due to setting PNGInfill == OnlyOnBinaryTransparency
+[2024.03.10-06.56.25:416][762]LogCore: PNG has complex alpha channel, will not fill RGB in transparent background, due to setting PNGInfill == OnlyOnBinaryTransparency
+[2024.03.10-06.56.25:434][762]LogTexture: Display: Building textures: /Game/Menu/MenuImageAsset/iceBullet.iceBullet (BGRA8, 175x175 x1x1x1) (Required Memory Estimate: 0.958153 MB), EncodeSpeed: Fast
+[2024.03.10-06.56.25:435][762]LogTexture: Display: Building textures: /Game/Menu/MenuImageAsset/normalBullet.normalBullet (BGRA8, 175x175 x1x1x1) (Required Memory Estimate: 0.958153 MB), EncodeSpeed: Fast
+[2024.03.10-06.56.25:446][762]LogInterchangeEngine: [Pending] Importing -  (2)
+[2024.03.10-06.56.25:741][762]LogInterchangeEngine: [Pending] Importing -  (1)
+[2024.03.10-06.56.25:775][763]LogInterchangeEngine: [Success] Import Done
+[2024.03.10-06.56.25:805][763]LogInterchangeEngine: [Success] Import Done
+[2024.03.10-06.56.34:351][ 52]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.10-06.56.34:439][ 52]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Menu/MenuImageAsset/normalBullet" FILE="C:/Users/FAHUT/Documents/GitHub/Brew-or-Bang/Brew_or_Bang 5.3/Content/Menu/MenuImageAsset/normalBullet.uasset" SILENT=true
+[2024.03.10-06.56.34:466][ 52]LogSavePackage: Moving output files for package: /Game/Menu/MenuImageAsset/normalBullet
+[2024.03.10-06.56.34:466][ 52]LogSavePackage: Moving 'C:/Users/FAHUT/Documents/GitHub/Brew-or-Bang/Brew_or_Bang 5.3/Saved/normalBullet638894F043A9DF719F209F92D825AFF4.tmp' to 'C:/Users/FAHUT/Documents/GitHub/Brew-or-Bang/Brew_or_Bang 5.3/Content/Menu/MenuImageAsset/normalBullet.uasset'
+[2024.03.10-06.56.34:483][ 52]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Menu/MenuImageAsset/iceBullet" FILE="C:/Users/FAHUT/Documents/GitHub/Brew-or-Bang/Brew_or_Bang 5.3/Content/Menu/MenuImageAsset/iceBullet.uasset" SILENT=true
+[2024.03.10-06.56.34:487][ 52]LogSavePackage: Moving output files for package: /Game/Menu/MenuImageAsset/iceBullet
+[2024.03.10-06.56.34:487][ 52]LogSavePackage: Moving 'C:/Users/FAHUT/Documents/GitHub/Brew-or-Bang/Brew_or_Bang 5.3/Saved/iceBulletA374D87C47ED24A8E931AE90DA92048A.tmp' to 'C:/Users/FAHUT/Documents/GitHub/Brew-or-Bang/Brew_or_Bang 5.3/Content/Menu/MenuImageAsset/iceBullet.uasset'
+[2024.03.10-06.56.34:490][ 52]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Menu/MenuImageAsset/fireBullet" FILE="C:/Users/FAHUT/Documents/GitHub/Brew-or-Bang/Brew_or_Bang 5.3/Content/Menu/MenuImageAsset/fireBullet.uasset" SILENT=true
+[2024.03.10-06.56.34:495][ 52]LogSavePackage: Moving output files for package: /Game/Menu/MenuImageAsset/fireBullet
+[2024.03.10-06.56.34:495][ 52]LogSavePackage: Moving 'C:/Users/FAHUT/Documents/GitHub/Brew-or-Bang/Brew_or_Bang 5.3/Saved/fireBullet72A162CD4FA6AFF42D9DAABEAD482169.tmp' to 'C:/Users/FAHUT/Documents/GitHub/Brew-or-Bang/Brew_or_Bang 5.3/Content/Menu/MenuImageAsset/fireBullet.uasset'
+[2024.03.10-06.56.34:509][ 52]LogFileHelpers: InternalPromptForCheckoutAndSave took 158 ms (total: 1.23 sec)
+[2024.03.10-06.56.34:513][ 52]AssetCheck: New page: Asset Save: multiple assets
+[2024.03.10-06.56.34:513][ 52]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Menu/MenuImageAsset/normalBullet.normalBullet
+[2024.03.10-06.56.34:513][ 52]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Menu/MenuImageAsset/iceBullet.iceBullet
+[2024.03.10-06.56.34:514][ 52]LogContentValidation: Display: Validating /Script/Engine.Texture2D /Game/Menu/MenuImageAsset/fireBullet.fireBullet
+[2024.03.10-06.57.11:903][697]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/Menu/Widget/HUD.HUD
+[2024.03.10-06.57.11:907][697]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.10-06.57.11:907][697]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.10-06.57.11:919][697]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.10-06.57.11:919][697]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.10-06.57.23:449][119]LogSlate: Took 0.001786 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2024.03.10-06.58.43:988][148]LogUObjectHash: Compacting FUObjectHashTables data took   4.07ms
+[2024.03.10-06.58.43:998][148]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/level/stage5' took 0.065
+[2024.03.10-06.58.44:001][148]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Menu/Widget/HUD] ([2] browsable assets)...
+[2024.03.10-06.58.44:020][148]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Menu/Widget/HUD.HUD]
+[2024.03.10-06.58.44:020][148]OBJ SavePackage: Finished generating thumbnails for package [/Game/Menu/Widget/HUD]
+[2024.03.10-06.58.44:020][148]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Menu/Widget/HUD" FILE="C:/Users/FAHUT/Documents/GitHub/Brew-or-Bang/Brew_or_Bang 5.3/Saved/Autosaves/Game/Menu/Widget/HUD_Auto5.uasset" SILENT=false AUTOSAVING=true
+[2024.03.10-06.58.44:078][148]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Menu/Widget/HUD_Auto5
+[2024.03.10-06.58.44:078][148]LogSavePackage: Moving 'C:/Users/FAHUT/Documents/GitHub/Brew-or-Bang/Brew_or_Bang 5.3/Saved/HUD_Auto5B18A50204679102C1610F59D624A0A46.tmp' to 'C:/Users/FAHUT/Documents/GitHub/Brew-or-Bang/Brew_or_Bang 5.3/Saved/Autosaves/Game/Menu/Widget/HUD_Auto5.uasset'
+[2024.03.10-06.58.44:079][148]LogFileHelpers: Auto-saving content packages took 0.081
+[2024.03.10-06.59.06:079][330]BlueprintLog: New page: Compile HUD
+[2024.03.10-06.59.06:194][330]LogUObjectHash: Compacting FUObjectHashTables data took   2.76ms
+[2024.03.10-06.59.22:446][920]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Character/Main_Character/Player_TP.Player_TP
+[2024.03.10-06.59.22:448][920]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.10-06.59.22:448][920]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.10-06.59.27:449][ 77]LogWorld: UWorld::CleanupWorld for World_56, bSessionEnded=true, bCleanupResources=true
+[2024.03.10-06.59.27:449][ 77]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.10-06.59.29:386][138]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Character/Main_Character/Player_TP.Player_TP
+[2024.03.10-06.59.29:386][138]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.10-06.59.29:386][138]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.10-07.04.18:347][919]BlueprintLog: New page: Compile HUD
+[2024.03.10-07.04.18:365][919]LogBlueprint: Warning: [AssetLog] C:\Users\FAHUT\Documents\GitHub\Brew-or-Bang\Brew_or_Bang 5.3\Content\Menu\Widget\HUD.uasset: [Compiler] 'Player TP' does not inherit from 'Player Controller' ( Cast To Player_TP  would always fail).
+[2024.03.10-07.04.18:366][919]LogBlueprint: Error: [AssetLog] C:\Users\FAHUT\Documents\GitHub\Brew-or-Bang\Brew_or_Bang 5.3\Content\Menu\Widget\HUD.uasset: [Compiler] This blueprint (self) is not a Image, therefore ' Target ' must have a connection.
+[2024.03.10-07.04.18:366][919]LogBlueprint: Error: [AssetLog] C:\Users\FAHUT\Documents\GitHub\Brew-or-Bang\Brew_or_Bang 5.3\Content\Menu\Widget\HUD.uasset: [Compiler] This blueprint (self) is not a Image, therefore ' Target ' must have a connection.
+[2024.03.10-07.04.18:366][919]LogBlueprint: Error: [AssetLog] C:\Users\FAHUT\Documents\GitHub\Brew-or-Bang\Brew_or_Bang 5.3\Content\Menu\Widget\HUD.uasset: [Compiler] This blueprint (self) is not a Image, therefore ' Target ' must have a connection.
+[2024.03.10-07.04.18:429][919]LogUObjectHash: Compacting FUObjectHashTables data took   5.18ms
+[2024.03.10-07.05.13:381][961]LogEditorClassViewer: Warning: Class /Game/TopDownBP/TopDownOverview.TopDownOverview_C has parent /Script/IntroTutorials.EditorTutorial, but this parent is not found. The Class will not be shown in ClassViewer.
+[2024.03.10-07.05.13:381][961]LogEditorClassViewer: Warning: Class /Game/ThirdPersonBP/ThirdPersonOverview.ThirdPersonOverview_C has parent /Script/IntroTutorials.EditorTutorial, but this parent is not found. The Class will not be shown in ClassViewer.
+[2024.03.10-07.05.37:529][801]BlueprintLog: New page: Compile HUD
+[2024.03.10-07.05.37:572][801]LogUObjectHash: Compacting FUObjectHashTables data took   2.73ms
+[2024.03.10-07.05.43:609][ 90]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.03.10-07.05.43:631][ 90]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.10-07.05.43:631][ 90]PIE: New page: PIE session: stage5 (10 มี.ค. 2567 21:05:43)
+[2024.03.10-07.05.43:631][ 90]LogPlayLevel: Creating play world package: /Game/level/UEDPIE_0_stage5
+[2024.03.10-07.05.43:672][ 90]LogPlayLevel: PIE: StaticDuplicateObject took: (0.040063s)
+[2024.03.10-07.05.43:672][ 90]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/level/stage5.stage5 to /Game/level/UEDPIE_0_stage5.stage5 (0.040176s)
+[2024.03.10-07.05.43:695][ 90]LogUObjectHash: Compacting FUObjectHashTables data took   1.99ms
+[2024.03.10-07.05.43:699][ 90]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.10-07.05.43:699][ 90]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.10-07.05.43:701][ 90]LogAIModule: Creating AISystem for world stage5
+[2024.03.10-07.05.43:701][ 90]LogPlayLevel: PIE: World Init took: (0.001753s)
+[2024.03.10-07.05.43:701][ 90]LogAudio: Display: Creating Audio Device:                 Id: 17, Scope: Unique, Realtime: True
+[2024.03.10-07.05.43:701][ 90]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.10-07.05.43:702][ 90]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.10-07.05.43:702][ 90]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.10-07.05.43:702][ 90]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.10-07.05.43:702][ 90]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.03.10-07.05.43:702][ 90]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.03.10-07.05.43:702][ 90]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.03.10-07.05.43:702][ 90]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.10-07.05.43:702][ 90]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.10-07.05.43:702][ 90]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.10-07.05.43:702][ 90]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.10-07.05.43:705][ 90]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.03.10-07.05.43:763][ 90]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2024.03.10-07.05.43:763][ 90]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.10-07.05.43:764][ 90]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.10-07.05.43:764][ 90]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.10-07.05.43:765][ 90]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=17
+[2024.03.10-07.05.43:765][ 90]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=17
+[2024.03.10-07.05.43:769][ 90]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=17
+[2024.03.10-07.05.43:769][ 90]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=17
+[2024.03.10-07.05.43:769][ 90]LogInit: FAudioDevice initialized with ID 17.
+[2024.03.10-07.05.43:769][ 90]LogAudio: Display: Audio Device (ID: 17) registered with world 'stage5'.
+[2024.03.10-07.05.43:769][ 90]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 17
+[2024.03.10-07.05.43:779][ 90]LogLoad: Game class is 'GameMode'
+[2024.03.10-07.05.43:793][ 90]LogWorld: Bringing World /Game/level/UEDPIE_0_stage5.stage5 up for play (max tick rate 60) at 2024.03.10-14.05.43
+[2024.03.10-07.05.43:794][ 90]LogWorld: Bringing up level for play took: 0.014038
+[2024.03.10-07.05.43:799][ 90]LogOnline: OSS: Created online subsystem instance for: :Context_68
+[2024.03.10-07.05.43:802][ 90]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.03.10-07.05.43:802][ 90]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.03.10-07.05.43:802][ 90]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.03.10-07.05.43:803][ 90]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.03.10-07.05.43:803][ 90]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2024.03.10-07.05.43:809][ 90]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.03.10-07.05.43:809][ 90]PIE: Server logged in
+[2024.03.10-07.05.43:810][ 90]PIE: Play in editor total start time 0.18 seconds.
+[2024.03.10-07.05.43:820][ 90]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'scene5_Cue'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.03.10-07.05.46:948][259]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.10-07.05.46:948][259]LogWorld: BeginTearingDown for /Game/level/UEDPIE_0_stage5
+[2024.03.10-07.05.46:948][259]LogWorld: UWorld::CleanupWorld for stage5, bSessionEnded=true, bCleanupResources=true
+[2024.03.10-07.05.46:949][259]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.10-07.05.46:952][259]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.10-07.05.46:962][259]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.10-07.05.46:981][259]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.03.10-07.05.46:982][259]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 17
+[2024.03.10-07.05.46:982][259]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
+[2024.03.10-07.05.46:984][259]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=17
+[2024.03.10-07.05.46:995][259]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.10-07.05.47:002][259]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2024.03.10-07.05.47:032][260]LogPlayLevel: Display: Destroying online subsystem :Context_68
+[2024.03.10-07.06.27:109][ 64]LogWindows: LaunchFileInExternalEditor D:/UE_5.3/Engine/Source/Runtime/Engine/Classes/GameFramework/Character.h 
+[2024.03.10-07.06.27:225][ 64]LogWindows: Launch application code for D:/UE_5.3/Engine/Source/Runtime/Engine/Classes/GameFramework/Character.h : 42
+[2024.03.10-07.06.27:225][ 64]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2024.03.10-07.06.27:241][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:241][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:241][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:241][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:241][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:241][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:241][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:241][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:241][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:241][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:241][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:241][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:241][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:241][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:241][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:241][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:241][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:241][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:241][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:241][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:242][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:242][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:242][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:242][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:242][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:242][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:242][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:242][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:242][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:242][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:242][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:242][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:242][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:242][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:242][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:242][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:242][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:242][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:242][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:242][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:243][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:243][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:243][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:243][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:243][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:243][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:243][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:243][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:243][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:243][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:243][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:243][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:243][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:243][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:243][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:243][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:243][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:243][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:243][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:243][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:243][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:243][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:243][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:243][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:243][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:243][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:243][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:243][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:244][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:244][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:244][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:244][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:244][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:244][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:244][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:244][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:244][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:244][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:244][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:244][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:244][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:244][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:244][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:244][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:244][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:244][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:244][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:244][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:244][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:244][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:244][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:245][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:245][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:245][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:245][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:245][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:245][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:245][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:245][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:245][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:245][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:245][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:245][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:245][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:245][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:245][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:245][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:245][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:245][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:245][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:245][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:245][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:245][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:245][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:245][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:245][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:245][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:245][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:245][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:245][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:245][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:245][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:245][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:245][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:246][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:246][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:246][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:246][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:246][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:246][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:246][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:246][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:246][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:246][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:246][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:246][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:246][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:246][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:246][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:246][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:246][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:246][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:246][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:246][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:266][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:272][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:272][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:279][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:279][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:296][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:303][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:303][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:303][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:313][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:383][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:384][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:485][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:521][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:522][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:530][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:530][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:530][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:530][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:530][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:530][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:530][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:530][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:530][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:530][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:530][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:530][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:530][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:530][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:530][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:530][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:530][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:530][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:530][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:530][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:530][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:530][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:530][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:530][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:530][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:530][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:530][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:531][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:531][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:531][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:531][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:531][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:531][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:531][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:531][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:531][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:531][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:531][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:531][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:531][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:531][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:531][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:531][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:531][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:531][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:531][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:532][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:532][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:532][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:532][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:532][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:532][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:532][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:532][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:532][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:532][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:532][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:532][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:532][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:532][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:532][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:532][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:532][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:532][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:532][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:532][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:532][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:532][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:532][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:532][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:532][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:533][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:533][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:533][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:533][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:533][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:533][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:533][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:533][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:533][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:533][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:533][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:533][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:533][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:533][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:533][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:533][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:533][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:533][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:533][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:533][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:533][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:533][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:533][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:533][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:534][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:534][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:534][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:534][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:534][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:534][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:534][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:534][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:534][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:534][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:534][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:534][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:534][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:534][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:534][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:534][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:534][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:534][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:534][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:534][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:534][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:534][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:534][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:534][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:535][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:535][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:535][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:535][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:535][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:535][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:535][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:535][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:535][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:535][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:535][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:535][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:535][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:535][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:535][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:535][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:535][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:535][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:535][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:535][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:535][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:535][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:535][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:535][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:535][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:544][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:546][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:547][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:549][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:549][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:556][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:560][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:560][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:560][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:566][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:581][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:581][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:609][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:620][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.06.27:621][ 64]LogVSAccessor: Warning: Couldn't access module table
+[2024.03.10-07.08.26:673][660]BlueprintLog: New page: Compile HUD
+[2024.03.10-07.08.26:729][660]LogUObjectHash: Compacting FUObjectHashTables data took   2.41ms
+[2024.03.10-07.08.33:393][984]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.03.10-07.08.33:421][984]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.10-07.08.33:421][984]PIE: New page: PIE session: stage5 (10 มี.ค. 2567 21:08:33)
+[2024.03.10-07.08.33:421][984]LogPlayLevel: Creating play world package: /Game/level/UEDPIE_0_stage5
+[2024.03.10-07.08.33:462][984]LogPlayLevel: PIE: StaticDuplicateObject took: (0.040519s)
+[2024.03.10-07.08.33:462][984]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/level/stage5.stage5 to /Game/level/UEDPIE_0_stage5.stage5 (0.040604s)
+[2024.03.10-07.08.33:486][984]LogUObjectHash: Compacting FUObjectHashTables data took   2.48ms
+[2024.03.10-07.08.33:489][984]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.10-07.08.33:490][984]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.10-07.08.33:490][984]LogAIModule: Creating AISystem for world stage5
+[2024.03.10-07.08.33:491][984]LogPlayLevel: PIE: World Init took: (0.002029s)
+[2024.03.10-07.08.33:491][984]LogAudio: Display: Creating Audio Device:                 Id: 18, Scope: Unique, Realtime: True
+[2024.03.10-07.08.33:491][984]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.10-07.08.33:491][984]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.10-07.08.33:491][984]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.10-07.08.33:491][984]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.10-07.08.33:491][984]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.03.10-07.08.33:491][984]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.03.10-07.08.33:491][984]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.03.10-07.08.33:492][984]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.10-07.08.33:492][984]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.10-07.08.33:492][984]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.10-07.08.33:492][984]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.10-07.08.33:496][984]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.03.10-07.08.33:535][984]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2024.03.10-07.08.33:536][984]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.10-07.08.33:536][984]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.10-07.08.33:536][984]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.10-07.08.33:537][984]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=18
+[2024.03.10-07.08.33:537][984]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=18
+[2024.03.10-07.08.33:540][984]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=18
+[2024.03.10-07.08.33:540][984]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=18
+[2024.03.10-07.08.33:540][984]LogInit: FAudioDevice initialized with ID 18.
+[2024.03.10-07.08.33:540][984]LogAudio: Display: Audio Device (ID: 18) registered with world 'stage5'.
+[2024.03.10-07.08.33:541][984]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 18
+[2024.03.10-07.08.33:545][984]LogLoad: Game class is 'GameMode'
+[2024.03.10-07.08.33:554][984]LogWorld: Bringing World /Game/level/UEDPIE_0_stage5.stage5 up for play (max tick rate 60) at 2024.03.10-14.08.33
+[2024.03.10-07.08.33:554][984]LogWorld: Bringing up level for play took: 0.009455
+[2024.03.10-07.08.33:557][984]LogOnline: OSS: Created online subsystem instance for: :Context_69
+[2024.03.10-07.08.33:558][984]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.03.10-07.08.33:559][984]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.03.10-07.08.33:559][984]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.03.10-07.08.33:559][984]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.03.10-07.08.33:559][984]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2024.03.10-07.08.33:562][984]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.03.10-07.08.33:562][984]PIE: Server logged in
+[2024.03.10-07.08.33:563][984]PIE: Play in editor total start time 0.142 seconds.
+[2024.03.10-07.08.33:568][984]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'scene5_Cue'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.03.10-07.08.40:947][422]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.10-07.08.40:947][422]LogWorld: BeginTearingDown for /Game/level/UEDPIE_0_stage5
+[2024.03.10-07.08.40:947][422]LogWorld: UWorld::CleanupWorld for stage5, bSessionEnded=true, bCleanupResources=true
+[2024.03.10-07.08.40:948][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.10-07.08.40:951][422]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.10-07.08.40:956][422]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.10-07.08.40:977][422]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.03.10-07.08.40:977][422]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 18
+[2024.03.10-07.08.40:977][422]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2024.03.10-07.08.40:979][422]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=18
+[2024.03.10-07.08.40:990][422]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.10-07.08.40:997][422]LogUObjectHash: Compacting FUObjectHashTables data took   2.74ms
+[2024.03.10-07.08.41:031][423]LogPlayLevel: Display: Destroying online subsystem :Context_69
+[2024.03.10-07.09.07:929][458]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/variables.variables
+[2024.03.10-07.09.07:929][458]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.10-07.09.07:929][458]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.10-07.09.17:031][787]BlueprintLog: New page: Compile variables
+[2024.03.10-07.09.17:126][787]LogUObjectHash: Compacting FUObjectHashTables data took   2.94ms
+[2024.03.10-07.09.23:245][ 53]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.03.10-07.09.23:258][ 53]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.10-07.09.23:258][ 53]PIE: New page: PIE session: stage5 (10 มี.ค. 2567 21:09:23)
+[2024.03.10-07.09.23:258][ 53]LogPlayLevel: Creating play world package: /Game/level/UEDPIE_0_stage5
+[2024.03.10-07.09.23:284][ 53]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026417s)
+[2024.03.10-07.09.23:285][ 53]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/level/stage5.stage5 to /Game/level/UEDPIE_0_stage5.stage5 (0.026478s)
+[2024.03.10-07.09.23:313][ 53]LogUObjectHash: Compacting FUObjectHashTables data took   2.18ms
+[2024.03.10-07.09.23:322][ 53]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.10-07.09.23:322][ 53]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.10-07.09.23:323][ 53]LogAIModule: Creating AISystem for world stage5
+[2024.03.10-07.09.23:324][ 53]LogPlayLevel: PIE: World Init took: (0.002249s)
+[2024.03.10-07.09.23:324][ 53]LogAudio: Display: Creating Audio Device:                 Id: 19, Scope: Unique, Realtime: True
+[2024.03.10-07.09.23:324][ 53]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.10-07.09.23:324][ 53]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.10-07.09.23:324][ 53]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.10-07.09.23:324][ 53]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.10-07.09.23:324][ 53]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.03.10-07.09.23:324][ 53]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.03.10-07.09.23:324][ 53]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.03.10-07.09.23:324][ 53]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.10-07.09.23:325][ 53]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.10-07.09.23:325][ 53]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.10-07.09.23:325][ 53]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.10-07.09.23:327][ 53]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.03.10-07.09.23:364][ 53]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2024.03.10-07.09.23:364][ 53]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.10-07.09.23:364][ 53]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.10-07.09.23:364][ 53]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.10-07.09.23:366][ 53]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=19
+[2024.03.10-07.09.23:366][ 53]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=19
+[2024.03.10-07.09.23:369][ 53]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=19
+[2024.03.10-07.09.23:369][ 53]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=19
+[2024.03.10-07.09.23:369][ 53]LogInit: FAudioDevice initialized with ID 19.
+[2024.03.10-07.09.23:369][ 53]LogAudio: Display: Audio Device (ID: 19) registered with world 'stage5'.
+[2024.03.10-07.09.23:369][ 53]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 19
+[2024.03.10-07.09.23:372][ 53]LogLoad: Game class is 'GameMode'
+[2024.03.10-07.09.23:379][ 53]LogWorld: Bringing World /Game/level/UEDPIE_0_stage5.stage5 up for play (max tick rate 60) at 2024.03.10-14.09.23
+[2024.03.10-07.09.23:379][ 53]LogWorld: Bringing up level for play took: 0.006459
+[2024.03.10-07.09.23:381][ 53]LogOnline: OSS: Created online subsystem instance for: :Context_71
+[2024.03.10-07.09.23:382][ 53]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.03.10-07.09.23:383][ 53]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.03.10-07.09.23:383][ 53]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.03.10-07.09.23:383][ 53]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.03.10-07.09.23:383][ 53]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2024.03.10-07.09.23:387][ 53]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.03.10-07.09.23:387][ 53]PIE: Server logged in
+[2024.03.10-07.09.23:387][ 53]PIE: Play in editor total start time 0.129 seconds.
+[2024.03.10-07.09.23:392][ 53]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'scene5_Cue'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.03.10-07.09.31:196][511]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.10-07.09.31:196][511]LogWorld: BeginTearingDown for /Game/level/UEDPIE_0_stage5
+[2024.03.10-07.09.31:196][511]LogWorld: UWorld::CleanupWorld for stage5, bSessionEnded=true, bCleanupResources=true
+[2024.03.10-07.09.31:197][511]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.10-07.09.31:200][511]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.10-07.09.31:205][511]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.10-07.09.31:226][511]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.03.10-07.09.31:226][511]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 19
+[2024.03.10-07.09.31:226][511]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19
+[2024.03.10-07.09.31:229][511]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=19
+[2024.03.10-07.09.31:239][511]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.10-07.09.31:245][511]LogUObjectHash: Compacting FUObjectHashTables data took   1.98ms
+[2024.03.10-07.09.31:275][512]LogPlayLevel: Display: Destroying online subsystem :Context_71
+[2024.03.10-07.09.31:837][545]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.03.10-07.09.31:848][545]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.10-07.09.31:848][545]PIE: New page: PIE session: stage5 (10 มี.ค. 2567 21:09:31)
+[2024.03.10-07.09.31:849][545]LogPlayLevel: Creating play world package: /Game/level/UEDPIE_0_stage5
+[2024.03.10-07.09.31:873][545]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024965s)
+[2024.03.10-07.09.31:874][545]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/level/stage5.stage5 to /Game/level/UEDPIE_0_stage5.stage5 (0.025010s)
+[2024.03.10-07.09.31:892][545]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2024.03.10-07.09.31:894][545]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.10-07.09.31:894][545]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.10-07.09.31:895][545]LogAIModule: Creating AISystem for world stage5
+[2024.03.10-07.09.31:895][545]LogPlayLevel: PIE: World Init took: (0.001436s)
+[2024.03.10-07.09.31:896][545]LogAudio: Display: Creating Audio Device:                 Id: 20, Scope: Unique, Realtime: True
+[2024.03.10-07.09.31:896][545]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.10-07.09.31:896][545]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.10-07.09.31:896][545]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.10-07.09.31:896][545]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.10-07.09.31:896][545]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.03.10-07.09.31:896][545]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.03.10-07.09.31:896][545]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.03.10-07.09.31:896][545]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.10-07.09.31:896][545]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.10-07.09.31:896][545]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.10-07.09.31:896][545]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.10-07.09.31:899][545]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.03.10-07.09.31:932][545]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2024.03.10-07.09.31:933][545]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.10-07.09.31:933][545]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.10-07.09.31:933][545]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.10-07.09.31:933][545]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=20
+[2024.03.10-07.09.31:933][545]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=20
+[2024.03.10-07.09.31:936][545]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=20
+[2024.03.10-07.09.31:936][545]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=20
+[2024.03.10-07.09.31:936][545]LogInit: FAudioDevice initialized with ID 20.
+[2024.03.10-07.09.31:936][545]LogAudio: Display: Audio Device (ID: 20) registered with world 'stage5'.
+[2024.03.10-07.09.31:937][545]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 20
+[2024.03.10-07.09.31:939][545]LogLoad: Game class is 'GameMode'
+[2024.03.10-07.09.31:946][545]LogWorld: Bringing World /Game/level/UEDPIE_0_stage5.stage5 up for play (max tick rate 60) at 2024.03.10-14.09.31
+[2024.03.10-07.09.31:947][545]LogWorld: Bringing up level for play took: 0.006658
+[2024.03.10-07.09.31:949][545]LogOnline: OSS: Created online subsystem instance for: :Context_72
+[2024.03.10-07.09.31:950][545]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.03.10-07.09.31:950][545]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.03.10-07.09.31:950][545]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.03.10-07.09.31:950][545]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.03.10-07.09.31:950][545]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2024.03.10-07.09.31:953][545]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.03.10-07.09.31:953][545]PIE: Server logged in
+[2024.03.10-07.09.31:953][545]PIE: Play in editor total start time 0.105 seconds.
+[2024.03.10-07.09.31:958][545]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'scene5_Cue'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.03.10-07.09.39:196][972]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.10-07.09.39:196][972]LogWorld: BeginTearingDown for /Game/level/UEDPIE_0_stage5
+[2024.03.10-07.09.39:196][972]LogWorld: UWorld::CleanupWorld for stage5, bSessionEnded=true, bCleanupResources=true
+[2024.03.10-07.09.39:197][972]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.10-07.09.39:200][972]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.10-07.09.39:206][972]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.10-07.09.39:221][972]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.10-07.09.39:222][972]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 20
+[2024.03.10-07.09.39:222][972]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20
+[2024.03.10-07.09.39:225][972]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20
+[2024.03.10-07.09.39:239][972]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2024.03.10-07.09.39:270][973]LogPlayLevel: Display: Destroying online subsystem :Context_72
+[2024.03.10-07.09.40:471][ 44]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.03.10-07.09.40:483][ 44]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.10-07.09.40:483][ 44]PIE: New page: PIE session: stage5 (10 มี.ค. 2567 21:09:40)
+[2024.03.10-07.09.40:483][ 44]LogPlayLevel: Creating play world package: /Game/level/UEDPIE_0_stage5
+[2024.03.10-07.09.40:509][ 44]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025723s)
+[2024.03.10-07.09.40:509][ 44]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/level/stage5.stage5 to /Game/level/UEDPIE_0_stage5.stage5 (0.025765s)
+[2024.03.10-07.09.40:527][ 44]LogUObjectHash: Compacting FUObjectHashTables data took   2.21ms
+[2024.03.10-07.09.40:529][ 44]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.10-07.09.40:529][ 44]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.10-07.09.40:529][ 44]LogAIModule: Creating AISystem for world stage5
+[2024.03.10-07.09.40:530][ 44]LogPlayLevel: PIE: World Init took: (0.001143s)
+[2024.03.10-07.09.40:530][ 44]LogAudio: Display: Creating Audio Device:                 Id: 21, Scope: Unique, Realtime: True
+[2024.03.10-07.09.40:530][ 44]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.10-07.09.40:530][ 44]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.10-07.09.40:530][ 44]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.10-07.09.40:530][ 44]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.10-07.09.40:530][ 44]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.03.10-07.09.40:530][ 44]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.03.10-07.09.40:530][ 44]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.03.10-07.09.40:530][ 44]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.10-07.09.40:530][ 44]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.10-07.09.40:530][ 44]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.10-07.09.40:530][ 44]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.10-07.09.40:533][ 44]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.03.10-07.09.40:568][ 44]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2024.03.10-07.09.40:568][ 44]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.10-07.09.40:568][ 44]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.10-07.09.40:568][ 44]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.10-07.09.40:569][ 44]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=21
+[2024.03.10-07.09.40:569][ 44]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=21
+[2024.03.10-07.09.40:572][ 44]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=21
+[2024.03.10-07.09.40:572][ 44]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=21
+[2024.03.10-07.09.40:572][ 44]LogInit: FAudioDevice initialized with ID 21.
+[2024.03.10-07.09.40:572][ 44]LogAudio: Display: Audio Device (ID: 21) registered with world 'stage5'.
+[2024.03.10-07.09.40:572][ 44]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 21
+[2024.03.10-07.09.40:575][ 44]LogLoad: Game class is 'GameMode'
+[2024.03.10-07.09.40:581][ 44]LogWorld: Bringing World /Game/level/UEDPIE_0_stage5.stage5 up for play (max tick rate 60) at 2024.03.10-14.09.40
+[2024.03.10-07.09.40:581][ 44]LogWorld: Bringing up level for play took: 0.006515
+[2024.03.10-07.09.40:585][ 44]LogOnline: OSS: Created online subsystem instance for: :Context_73
+[2024.03.10-07.09.40:586][ 44]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.03.10-07.09.40:586][ 44]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.03.10-07.09.40:586][ 44]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.03.10-07.09.40:586][ 44]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.03.10-07.09.40:586][ 44]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2024.03.10-07.09.40:588][ 44]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.03.10-07.09.40:589][ 44]PIE: Server logged in
+[2024.03.10-07.09.40:589][ 44]PIE: Play in editor total start time 0.106 seconds.
+[2024.03.10-07.09.40:593][ 44]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'scene5_Cue'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.03.10-07.09.43:366][207]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.10-07.09.43:366][207]LogWorld: BeginTearingDown for /Game/level/UEDPIE_0_stage5
+[2024.03.10-07.09.43:366][207]LogWorld: UWorld::CleanupWorld for stage5, bSessionEnded=true, bCleanupResources=true
+[2024.03.10-07.09.43:367][207]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.10-07.09.43:370][207]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.10-07.09.43:375][207]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.10-07.09.43:394][207]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.03.10-07.09.43:394][207]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 21
+[2024.03.10-07.09.43:394][207]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21
+[2024.03.10-07.09.43:397][207]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21
+[2024.03.10-07.09.43:406][207]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.10-07.09.43:412][207]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2024.03.10-07.09.43:455][208]LogPlayLevel: Display: Destroying online subsystem :Context_73
+[2024.03.10-07.09.44:295][257]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.03.10-07.09.44:306][257]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.10-07.09.44:306][257]PIE: New page: PIE session: stage5 (10 มี.ค. 2567 21:09:44)
+[2024.03.10-07.09.44:307][257]LogPlayLevel: Creating play world package: /Game/level/UEDPIE_0_stage5
+[2024.03.10-07.09.44:331][257]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024528s)
+[2024.03.10-07.09.44:332][257]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/level/stage5.stage5 to /Game/level/UEDPIE_0_stage5.stage5 (0.024573s)
+[2024.03.10-07.09.44:350][257]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2024.03.10-07.09.44:352][257]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.10-07.09.44:352][257]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.10-07.09.44:353][257]LogAIModule: Creating AISystem for world stage5
+[2024.03.10-07.09.44:353][257]LogPlayLevel: PIE: World Init took: (0.001100s)
+[2024.03.10-07.09.44:353][257]LogAudio: Display: Creating Audio Device:                 Id: 22, Scope: Unique, Realtime: True
+[2024.03.10-07.09.44:354][257]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.10-07.09.44:354][257]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.10-07.09.44:354][257]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.10-07.09.44:354][257]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.10-07.09.44:354][257]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.03.10-07.09.44:354][257]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.03.10-07.09.44:354][257]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.03.10-07.09.44:354][257]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.10-07.09.44:354][257]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.10-07.09.44:354][257]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.10-07.09.44:354][257]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.10-07.09.44:357][257]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.03.10-07.09.44:391][257]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2024.03.10-07.09.44:391][257]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.10-07.09.44:391][257]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.10-07.09.44:391][257]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.10-07.09.44:392][257]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=22
+[2024.03.10-07.09.44:392][257]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=22
+[2024.03.10-07.09.44:396][257]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=22
+[2024.03.10-07.09.44:396][257]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=22
+[2024.03.10-07.09.44:396][257]LogInit: FAudioDevice initialized with ID 22.
+[2024.03.10-07.09.44:396][257]LogAudio: Display: Audio Device (ID: 22) registered with world 'stage5'.
+[2024.03.10-07.09.44:396][257]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 22
+[2024.03.10-07.09.44:399][257]LogLoad: Game class is 'GameMode'
+[2024.03.10-07.09.44:404][257]LogWorld: Bringing World /Game/level/UEDPIE_0_stage5.stage5 up for play (max tick rate 60) at 2024.03.10-14.09.44
+[2024.03.10-07.09.44:404][257]LogWorld: Bringing up level for play took: 0.005793
+[2024.03.10-07.09.44:408][257]LogOnline: OSS: Created online subsystem instance for: :Context_74
+[2024.03.10-07.09.44:408][257]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.03.10-07.09.44:408][257]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.03.10-07.09.44:409][257]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.03.10-07.09.44:409][257]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.03.10-07.09.44:409][257]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2024.03.10-07.09.44:411][257]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.03.10-07.09.44:411][257]PIE: Server logged in
+[2024.03.10-07.09.44:412][257]PIE: Play in editor total start time 0.106 seconds.
+[2024.03.10-07.09.44:416][257]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'scene5_Cue'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.03.10-07.09.47:226][419]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.10-07.09.47:226][419]LogWorld: BeginTearingDown for /Game/level/UEDPIE_0_stage5
+[2024.03.10-07.09.47:226][419]LogWorld: UWorld::CleanupWorld for stage5, bSessionEnded=true, bCleanupResources=true
+[2024.03.10-07.09.47:227][419]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.10-07.09.47:230][419]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.10-07.09.47:236][419]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.10-07.09.47:254][419]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.10-07.09.47:255][419]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 22
+[2024.03.10-07.09.47:255][419]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=22
+[2024.03.10-07.09.47:258][419]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=22
+[2024.03.10-07.09.47:271][419]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2024.03.10-07.09.47:301][420]LogPlayLevel: Display: Destroying online subsystem :Context_74
+[2024.03.10-07.10.17:046][780]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.03.10-07.10.17:057][780]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.10-07.10.17:057][780]PIE: New page: PIE session: stage5 (10 มี.ค. 2567 21:10:17)
+[2024.03.10-07.10.17:057][780]LogPlayLevel: Creating play world package: /Game/level/UEDPIE_0_stage5
+[2024.03.10-07.10.17:083][780]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025653s)
+[2024.03.10-07.10.17:083][780]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/level/stage5.stage5 to /Game/level/UEDPIE_0_stage5.stage5 (0.025701s)
+[2024.03.10-07.10.17:103][780]LogUObjectHash: Compacting FUObjectHashTables data took   1.87ms
+[2024.03.10-07.10.17:109][780]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.10-07.10.17:109][780]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.10-07.10.17:109][780]LogAIModule: Creating AISystem for world stage5
+[2024.03.10-07.10.17:110][780]LogPlayLevel: PIE: World Init took: (0.001259s)
+[2024.03.10-07.10.17:110][780]LogAudio: Display: Creating Audio Device:                 Id: 23, Scope: Unique, Realtime: True
+[2024.03.10-07.10.17:110][780]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.10-07.10.17:110][780]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.10-07.10.17:110][780]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.10-07.10.17:110][780]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.10-07.10.17:110][780]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.03.10-07.10.17:110][780]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.03.10-07.10.17:110][780]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.03.10-07.10.17:110][780]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.10-07.10.17:111][780]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.10-07.10.17:111][780]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.10-07.10.17:111][780]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.10-07.10.17:114][780]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.03.10-07.10.17:148][780]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2024.03.10-07.10.17:149][780]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.10-07.10.17:149][780]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.10-07.10.17:149][780]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.10-07.10.17:150][780]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=23
+[2024.03.10-07.10.17:150][780]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=23
+[2024.03.10-07.10.17:153][780]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=23
+[2024.03.10-07.10.17:153][780]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=23
+[2024.03.10-07.10.17:153][780]LogInit: FAudioDevice initialized with ID 23.
+[2024.03.10-07.10.17:153][780]LogAudio: Display: Audio Device (ID: 23) registered with world 'stage5'.
+[2024.03.10-07.10.17:153][780]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 23
+[2024.03.10-07.10.17:157][780]LogLoad: Game class is 'GameMode'
+[2024.03.10-07.10.17:163][780]LogWorld: Bringing World /Game/level/UEDPIE_0_stage5.stage5 up for play (max tick rate 60) at 2024.03.10-14.10.17
+[2024.03.10-07.10.17:163][780]LogWorld: Bringing up level for play took: 0.006456
+[2024.03.10-07.10.17:166][780]LogOnline: OSS: Created online subsystem instance for: :Context_75
+[2024.03.10-07.10.17:167][780]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.03.10-07.10.17:167][780]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.03.10-07.10.17:167][780]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.03.10-07.10.17:167][780]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.03.10-07.10.17:167][780]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2024.03.10-07.10.17:171][780]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.03.10-07.10.17:171][780]PIE: Server logged in
+[2024.03.10-07.10.17:172][780]PIE: Play in editor total start time 0.115 seconds.
+[2024.03.10-07.10.17:177][780]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'scene5_Cue'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.03.10-07.10.17:991][826]LogViewport: Scene viewport resized to 1438x845, mode Windowed.
+[2024.03.10-07.10.18:008][827]LogViewport: Scene viewport resized to 1440x845, mode Windowed.
+[2024.03.10-07.10.18:028][828]LogViewport: Scene viewport resized to 1452x845, mode Windowed.
+[2024.03.10-07.10.18:047][829]LogViewport: Scene viewport resized to 1485x845, mode Windowed.
+[2024.03.10-07.10.18:065][830]LogViewport: Scene viewport resized to 1513x845, mode Windowed.
+[2024.03.10-07.10.18:083][831]LogViewport: Scene viewport resized to 1556x845, mode Windowed.
+[2024.03.10-07.10.18:094][832]LogViewport: Scene viewport resized to 1609x845, mode Windowed.
+[2024.03.10-07.10.18:133][833]LogViewport: Scene viewport resized to 1693x845, mode Windowed.
+[2024.03.10-07.10.18:163][834]LogViewport: Scene viewport resized to 1768x845, mode Windowed.
+[2024.03.10-07.10.18:194][835]LogViewport: Scene viewport resized to 1800x845, mode Windowed.
+[2024.03.10-07.10.18:221][836]LogViewport: Scene viewport resized to 1812x845, mode Windowed.
+[2024.03.10-07.10.18:602][859]LogViewport: Scene viewport resized to 1807x845, mode Windowed.
+[2024.03.10-07.10.18:621][860]LogViewport: Scene viewport resized to 1795x845, mode Windowed.
+[2024.03.10-07.10.18:638][861]LogViewport: Scene viewport resized to 1776x845, mode Windowed.
+[2024.03.10-07.10.18:657][862]LogViewport: Scene viewport resized to 1742x845, mode Windowed.
+[2024.03.10-07.10.18:688][863]LogViewport: Scene viewport resized to 1666x845, mode Windowed.
+[2024.03.10-07.10.18:707][864]LogViewport: Scene viewport resized to 1625x845, mode Windowed.
+[2024.03.10-07.10.18:726][865]LogViewport: Scene viewport resized to 1597x845, mode Windowed.
+[2024.03.10-07.10.18:742][866]LogViewport: Scene viewport resized to 1584x845, mode Windowed.
+[2024.03.10-07.10.18:763][867]LogViewport: Scene viewport resized to 1581x845, mode Windowed.
+[2024.03.10-07.10.18:846][872]LogViewport: Scene viewport resized to 1580x845, mode Windowed.
+[2024.03.10-07.10.18:863][873]LogViewport: Scene viewport resized to 1583x845, mode Windowed.
+[2024.03.10-07.10.18:882][874]LogViewport: Scene viewport resized to 1589x845, mode Windowed.
+[2024.03.10-07.10.18:898][875]LogViewport: Scene viewport resized to 1597x845, mode Windowed.
+[2024.03.10-07.10.18:917][876]LogViewport: Scene viewport resized to 1601x845, mode Windowed.
+[2024.03.10-07.10.23:016][119]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.10-07.10.23:016][119]LogWorld: BeginTearingDown for /Game/level/UEDPIE_0_stage5
+[2024.03.10-07.10.23:016][119]LogWorld: UWorld::CleanupWorld for stage5, bSessionEnded=true, bCleanupResources=true
+[2024.03.10-07.10.23:017][119]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.10-07.10.23:024][119]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.10-07.10.23:031][119]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.10-07.10.23:052][119]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.10-07.10.23:053][119]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 23
+[2024.03.10-07.10.23:053][119]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=23
+[2024.03.10-07.10.23:055][119]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=23
+[2024.03.10-07.10.23:070][119]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
+[2024.03.10-07.10.23:119][120]LogPlayLevel: Display: Destroying online subsystem :Context_75
+[2024.03.10-07.10.23:983][168]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.03.10-07.10.23:997][168]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.10-07.10.23:997][168]PIE: New page: PIE session: stage5 (10 มี.ค. 2567 21:10:23)
+[2024.03.10-07.10.23:998][168]LogPlayLevel: Creating play world package: /Game/level/UEDPIE_0_stage5
+[2024.03.10-07.10.24:022][168]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024750s)
+[2024.03.10-07.10.24:022][168]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/level/stage5.stage5 to /Game/level/UEDPIE_0_stage5.stage5 (0.024823s)
+[2024.03.10-07.10.24:042][168]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2024.03.10-07.10.24:044][168]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.10-07.10.24:044][168]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.10-07.10.24:045][168]LogAIModule: Creating AISystem for world stage5
+[2024.03.10-07.10.24:045][168]LogPlayLevel: PIE: World Init took: (0.001331s)
+[2024.03.10-07.10.24:045][168]LogAudio: Display: Creating Audio Device:                 Id: 24, Scope: Unique, Realtime: True
+[2024.03.10-07.10.24:045][168]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.10-07.10.24:045][168]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.10-07.10.24:045][168]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.10-07.10.24:045][168]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.10-07.10.24:045][168]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.03.10-07.10.24:045][168]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.03.10-07.10.24:045][168]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.03.10-07.10.24:046][168]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.10-07.10.24:046][168]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.10-07.10.24:046][168]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.10-07.10.24:047][168]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.10-07.10.24:049][168]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.03.10-07.10.24:084][168]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2024.03.10-07.10.24:084][168]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.10-07.10.24:085][168]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.10-07.10.24:085][168]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.10-07.10.24:086][168]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=24
+[2024.03.10-07.10.24:086][168]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=24
+[2024.03.10-07.10.24:089][168]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=24
+[2024.03.10-07.10.24:089][168]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=24
+[2024.03.10-07.10.24:089][168]LogInit: FAudioDevice initialized with ID 24.
+[2024.03.10-07.10.24:089][168]LogAudio: Display: Audio Device (ID: 24) registered with world 'stage5'.
+[2024.03.10-07.10.24:089][168]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 24
+[2024.03.10-07.10.24:092][168]LogLoad: Game class is 'GameMode'
+[2024.03.10-07.10.24:098][168]LogWorld: Bringing World /Game/level/UEDPIE_0_stage5.stage5 up for play (max tick rate 60) at 2024.03.10-14.10.24
+[2024.03.10-07.10.24:098][168]LogWorld: Bringing up level for play took: 0.006491
+[2024.03.10-07.10.24:100][168]LogOnline: OSS: Created online subsystem instance for: :Context_76
+[2024.03.10-07.10.24:101][168]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.03.10-07.10.24:101][168]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.03.10-07.10.24:101][168]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.03.10-07.10.24:102][168]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.03.10-07.10.24:102][168]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2024.03.10-07.10.24:104][168]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.03.10-07.10.24:104][168]PIE: Server logged in
+[2024.03.10-07.10.24:105][168]PIE: Play in editor total start time 0.108 seconds.
+[2024.03.10-07.10.24:109][168]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'scene5_Cue'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.03.10-07.10.43:206][309]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.10-07.10.43:206][309]LogWorld: BeginTearingDown for /Game/level/UEDPIE_0_stage5
+[2024.03.10-07.10.43:206][309]LogWorld: UWorld::CleanupWorld for stage5, bSessionEnded=true, bCleanupResources=true
+[2024.03.10-07.10.43:207][309]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.10-07.10.43:210][309]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.10-07.10.43:218][309]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.10-07.10.43:235][309]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.10-07.10.43:236][309]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 24
+[2024.03.10-07.10.43:236][309]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=24
+[2024.03.10-07.10.43:239][309]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=24
+[2024.03.10-07.10.43:253][309]LogUObjectHash: Compacting FUObjectHashTables data took   1.78ms
+[2024.03.10-07.10.43:285][310]LogPlayLevel: Display: Destroying online subsystem :Context_76
+[2024.03.10-07.10.44:437][378]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.03.10-07.10.44:449][378]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.10-07.10.44:449][378]PIE: New page: PIE session: stage5 (10 มี.ค. 2567 21:10:44)
+[2024.03.10-07.10.44:449][378]LogPlayLevel: Creating play world package: /Game/level/UEDPIE_0_stage5
+[2024.03.10-07.10.44:475][378]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025824s)
+[2024.03.10-07.10.44:475][378]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/level/stage5.stage5 to /Game/level/UEDPIE_0_stage5.stage5 (0.025889s)
+[2024.03.10-07.10.44:494][378]LogUObjectHash: Compacting FUObjectHashTables data took   1.83ms
+[2024.03.10-07.10.44:496][378]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.10-07.10.44:496][378]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.10-07.10.44:497][378]LogAIModule: Creating AISystem for world stage5
+[2024.03.10-07.10.44:497][378]LogPlayLevel: PIE: World Init took: (0.001132s)
+[2024.03.10-07.10.44:497][378]LogAudio: Display: Creating Audio Device:                 Id: 25, Scope: Unique, Realtime: True
+[2024.03.10-07.10.44:497][378]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.10-07.10.44:497][378]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.10-07.10.44:497][378]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.10-07.10.44:497][378]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.10-07.10.44:497][378]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.03.10-07.10.44:497][378]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.03.10-07.10.44:497][378]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.03.10-07.10.44:497][378]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.10-07.10.44:498][378]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.10-07.10.44:498][378]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.10-07.10.44:498][378]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.10-07.10.44:501][378]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.03.10-07.10.44:537][378]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2024.03.10-07.10.44:538][378]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.10-07.10.44:538][378]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.10-07.10.44:538][378]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.10-07.10.44:539][378]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=25
+[2024.03.10-07.10.44:539][378]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=25
+[2024.03.10-07.10.44:542][378]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=25
+[2024.03.10-07.10.44:542][378]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=25
+[2024.03.10-07.10.44:542][378]LogInit: FAudioDevice initialized with ID 25.
+[2024.03.10-07.10.44:542][378]LogAudio: Display: Audio Device (ID: 25) registered with world 'stage5'.
+[2024.03.10-07.10.44:542][378]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 25
+[2024.03.10-07.10.44:545][378]LogLoad: Game class is 'GameMode'
+[2024.03.10-07.10.44:552][378]LogWorld: Bringing World /Game/level/UEDPIE_0_stage5.stage5 up for play (max tick rate 60) at 2024.03.10-14.10.44
+[2024.03.10-07.10.44:553][378]LogWorld: Bringing up level for play took: 0.007106
+[2024.03.10-07.10.44:555][378]LogOnline: OSS: Created online subsystem instance for: :Context_77
+[2024.03.10-07.10.44:557][378]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.03.10-07.10.44:557][378]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.03.10-07.10.44:557][378]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.03.10-07.10.44:557][378]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.03.10-07.10.44:557][378]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2024.03.10-07.10.44:560][378]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.03.10-07.10.44:560][378]PIE: Server logged in
+[2024.03.10-07.10.44:560][378]PIE: Play in editor total start time 0.112 seconds.
+[2024.03.10-07.10.44:564][378]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'scene5_Cue'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.03.10-07.10.54:440][964]LogBlueprintUserMessages: [Boss_C_1] 1
+[2024.03.10-07.10.54:906][990]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.10-07.10.54:906][990]LogWorld: BeginTearingDown for /Game/level/UEDPIE_0_stage5
+[2024.03.10-07.10.54:906][990]LogWorld: UWorld::CleanupWorld for stage5, bSessionEnded=true, bCleanupResources=true
+[2024.03.10-07.10.54:907][990]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.10-07.10.54:911][990]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.10-07.10.54:916][990]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.10-07.10.54:934][990]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.10-07.10.54:934][990]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 25
+[2024.03.10-07.10.54:934][990]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=25
+[2024.03.10-07.10.54:936][990]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=25
+[2024.03.10-07.10.54:951][990]LogUObjectHash: Compacting FUObjectHashTables data took   1.97ms
+[2024.03.10-07.10.54:982][991]LogPlayLevel: Display: Destroying online subsystem :Context_77
+[2024.03.10-07.12.06:135][401]LogUObjectHash: Compacting FUObjectHashTables data took   2.40ms
+[2024.03.10-07.12.06:247][401]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/level/stage5_Auto6
+[2024.03.10-07.12.06:247][401]LogSavePackage: Moving 'C:/Users/FAHUT/Documents/GitHub/Brew-or-Bang/Brew_or_Bang 5.3/Saved/stage5_Auto69956D5E846EAC6C7F6B4E7988862BF41.tmp' to 'C:/Users/FAHUT/Documents/GitHub/Brew-or-Bang/Brew_or_Bang 5.3/Saved/Autosaves/Game/level/stage5_Auto6.umap'
+[2024.03.10-07.12.06:249][401]LogAssetRegistry: Warning: ScanPathsSynchronous: C:/Users/FAHUT/Documents/GitHub/Brew-or-Bang/Brew_or_Bang 5.3/Saved/Autosaves/Game/level/stage5_Auto6.umap is in the /Temp path, will not scan.
+[2024.03.10-07.12.06:249][401]LogAssetRegistry: Warning: ScanPathsSynchronous: /Temp/__ExternalActors__/Autosaves/Game/level/stage5_Auto6 is in the /Temp path, will not scan.
+[2024.03.10-07.12.06:249][401]LogAssetRegistry: Warning: ScanPathsSynchronous: /Temp/__ExternalObjects__/Autosaves/Game/level/stage5_Auto6 is in the /Temp path, will not scan.
+[2024.03.10-07.12.06:250][401]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/level/stage5' took 0.147
+[2024.03.10-07.12.06:250][401]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.147
+[2024.03.10-07.12.06:252][401]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/variables] ([2] browsable assets)...
+[2024.03.10-07.12.06:252][401]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/variables]
+[2024.03.10-07.12.06:280][401]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/variables_Auto6
+[2024.03.10-07.12.06:281][401]LogSavePackage: Moving 'C:/Users/FAHUT/Documents/GitHub/Brew-or-Bang/Brew_or_Bang 5.3/Saved/variables_Auto6209F35FE4B8B38EA1FAA7CA87F850CC1.tmp' to 'C:/Users/FAHUT/Documents/GitHub/Brew-or-Bang/Brew_or_Bang 5.3/Saved/Autosaves/Game/Blueprints/variables_Auto6.uasset'
+[2024.03.10-07.12.06:283][401]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Menu/Widget/HUD] ([2] browsable assets)...
+[2024.03.10-07.12.06:292][401]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/Menu/Widget/HUD.HUD]
+[2024.03.10-07.12.06:295][401]OBJ SavePackage: Finished generating thumbnails for package [/Game/Menu/Widget/HUD]
+[2024.03.10-07.12.06:295][401]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Menu/Widget/HUD" FILE="C:/Users/FAHUT/Documents/GitHub/Brew-or-Bang/Brew_or_Bang 5.3/Saved/Autosaves/Game/Menu/Widget/HUD_Auto6.uasset" SILENT=false AUTOSAVING=true
+[2024.03.10-07.12.06:326][401]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Menu/Widget/HUD_Auto6
+[2024.03.10-07.12.06:326][401]LogSavePackage: Moving 'C:/Users/FAHUT/Documents/GitHub/Brew-or-Bang/Brew_or_Bang 5.3/Saved/HUD_Auto6B01C15F4409E48254BCFCEBCE448DD80.tmp' to 'C:/Users/FAHUT/Documents/GitHub/Brew-or-Bang/Brew_or_Bang 5.3/Saved/Autosaves/Game/Menu/Widget/HUD_Auto6.uasset'
+[2024.03.10-07.12.06:326][401]LogFileHelpers: Auto-saving content packages took 0.077
+[2024.03.10-07.13.40:075][490]BlueprintLog: New page: Compile HUD
+[2024.03.10-07.13.40:134][490]LogUObjectHash: Compacting FUObjectHashTables data took   2.11ms
+[2024.03.10-07.13.42:347][596]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.03.10-07.13.42:360][596]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.03.10-07.13.42:361][596]PIE: New page: PIE session: stage5 (10 มี.ค. 2567 21:13:42)
+[2024.03.10-07.13.42:361][596]LogPlayLevel: Creating play world package: /Game/level/UEDPIE_0_stage5
+[2024.03.10-07.13.42:389][596]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027833s)
+[2024.03.10-07.13.42:389][596]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/level/stage5.stage5 to /Game/level/UEDPIE_0_stage5.stage5 (0.027889s)
+[2024.03.10-07.13.42:409][596]LogUObjectHash: Compacting FUObjectHashTables data took   3.09ms
+[2024.03.10-07.13.42:412][596]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.10-07.13.42:412][596]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.10-07.13.42:413][596]LogAIModule: Creating AISystem for world stage5
+[2024.03.10-07.13.42:413][596]LogPlayLevel: PIE: World Init took: (0.001335s)
+[2024.03.10-07.13.42:413][596]LogAudio: Display: Creating Audio Device:                 Id: 26, Scope: Unique, Realtime: True
+[2024.03.10-07.13.42:413][596]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.10-07.13.42:413][596]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.10-07.13.42:413][596]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.10-07.13.42:413][596]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.10-07.13.42:413][596]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.03.10-07.13.42:413][596]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.03.10-07.13.42:413][596]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.03.10-07.13.42:413][596]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.10-07.13.42:414][596]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.10-07.13.42:414][596]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.10-07.13.42:414][596]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.10-07.13.42:417][596]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.03.10-07.13.42:456][596]LogAudioMixer: Display: Using Audio Hardware Device Headphones (Realtek(R) Audio)
+[2024.03.10-07.13.42:456][596]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.10-07.13.42:456][596]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.10-07.13.42:456][596]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.10-07.13.42:457][596]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=26
+[2024.03.10-07.13.42:457][596]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=26
+[2024.03.10-07.13.42:461][596]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=26
+[2024.03.10-07.13.42:461][596]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=26
+[2024.03.10-07.13.42:461][596]LogInit: FAudioDevice initialized with ID 26.
+[2024.03.10-07.13.42:461][596]LogAudio: Display: Audio Device (ID: 26) registered with world 'stage5'.
+[2024.03.10-07.13.42:461][596]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 26
+[2024.03.10-07.13.42:463][596]LogLoad: Game class is 'GameMode'
+[2024.03.10-07.13.42:471][596]LogWorld: Bringing World /Game/level/UEDPIE_0_stage5.stage5 up for play (max tick rate 60) at 2024.03.10-14.13.42
+[2024.03.10-07.13.42:471][596]LogWorld: Bringing up level for play took: 0.007656
+[2024.03.10-07.13.42:475][596]LogOnline: OSS: Created online subsystem instance for: :Context_78
+[2024.03.10-07.13.42:476][596]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.03.10-07.13.42:476][596]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.03.10-07.13.42:476][596]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.03.10-07.13.42:476][596]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2024.03.10-07.13.42:476][596]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> CaptureDuringMouseDown
+[2024.03.10-07.13.42:479][596]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.03.10-07.13.42:479][596]PIE: Server logged in
+[2024.03.10-07.13.42:480][596]PIE: Play in editor total start time 0.12 seconds.
+[2024.03.10-07.13.42:486][596]LogAudio: Warning: Detected orphaned sound which is not a one-shot 'scene5_Cue'. Sounds which are not one-shots need to have audio components or they risk being orphaned.
+[2024.03.10-07.13.51:375][119]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.10-07.13.51:375][119]LogWorld: BeginTearingDown for /Game/level/UEDPIE_0_stage5
+[2024.03.10-07.13.51:375][119]LogWorld: UWorld::CleanupWorld for stage5, bSessionEnded=true, bCleanupResources=true
+[2024.03.10-07.13.51:376][119]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.10-07.13.51:380][119]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.10-07.13.51:384][119]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.10-07.13.51:406][119]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.03.10-07.13.51:406][119]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 26
+[2024.03.10-07.13.51:406][119]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=26
+[2024.03.10-07.13.51:408][119]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=26
+[2024.03.10-07.13.51:418][119]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.10-07.13.51:424][119]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2024.03.10-07.13.51:455][120]LogPlayLevel: Display: Destroying online subsystem :Context_78
+[2024.03.10-07.14.01:662][253]LogUObjectHash: Compacting FUObjectHashTables data took   2.29ms
+[2024.03.10-07.14.01:676][253]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.10-07.14.01:796][253]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/level/stage5" FILE="C:/Users/FAHUT/Documents/GitHub/Brew-or-Bang/Brew_or_Bang 5.3/Content/level/stage5.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.03.10-07.14.01:863][253]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2024.03.10-07.14.01:940][253]LogSavePackage: Moving output files for package: /Game/level/stage5
+[2024.03.10-07.14.01:941][253]LogSavePackage: Moving 'C:/Users/FAHUT/Documents/GitHub/Brew-or-Bang/Brew_or_Bang 5.3/Saved/stage520BBCA8F4AB2DDEEED2F07B162EA1E64.tmp' to 'C:/Users/FAHUT/Documents/GitHub/Brew-or-Bang/Brew_or_Bang 5.3/Content/level/stage5.umap'
+[2024.03.10-07.14.01:979][253]LogFileHelpers: Saving map 'stage5' took 0.184
+[2024.03.10-07.14.01:980][253]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/variables" FILE="C:/Users/FAHUT/Documents/GitHub/Brew-or-Bang/Brew_or_Bang 5.3/Content/Blueprints/variables.uasset" SILENT=true
+[2024.03.10-07.14.02:000][253]LogSavePackage: Moving output files for package: /Game/Blueprints/variables
+[2024.03.10-07.14.02:001][253]LogSavePackage: Moving 'C:/Users/FAHUT/Documents/GitHub/Brew-or-Bang/Brew_or_Bang 5.3/Saved/variablesFC7225EF44F83DCF3E1CADA027F2E494.tmp' to 'C:/Users/FAHUT/Documents/GitHub/Brew-or-Bang/Brew_or_Bang 5.3/Content/Blueprints/variables.uasset'
+[2024.03.10-07.14.02:010][253]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Menu/Widget/HUD" FILE="C:/Users/FAHUT/Documents/GitHub/Brew-or-Bang/Brew_or_Bang 5.3/Content/Menu/Widget/HUD.uasset" SILENT=true
+[2024.03.10-07.14.02:036][253]LogSavePackage: Moving output files for package: /Game/Menu/Widget/HUD
+[2024.03.10-07.14.02:036][253]LogSavePackage: Moving 'C:/Users/FAHUT/Documents/GitHub/Brew-or-Bang/Brew_or_Bang 5.3/Saved/HUDD1EA7A294C135197EE5F8A9143C59752.tmp' to 'C:/Users/FAHUT/Documents/GitHub/Brew-or-Bang/Brew_or_Bang 5.3/Content/Menu/Widget/HUD.uasset'
+[2024.03.10-07.14.02:050][253]LogFileHelpers: InternalPromptForCheckoutAndSave took 374 ms (total: 1.60 sec)
+[2024.03.10-07.14.02:053][253]AssetCheck: New page: Asset Save: multiple assets
+[2024.03.10-07.14.02:053][253]LogContentValidation: Display: Validating /Script/Engine.World /Game/level/stage5.stage5
+[2024.03.10-07.14.02:053][253]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/variables.variables
+[2024.03.10-07.14.02:053][253]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Menu/Widget/HUD.HUD
