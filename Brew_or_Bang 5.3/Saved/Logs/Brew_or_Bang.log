@@ -5436,3 +5436,15 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.03.11-18.17.57:535][960]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=25
 [2024.03.11-18.17.57:555][960]LogUObjectHash: Compacting FUObjectHashTables data took   1.73ms
 [2024.03.11-18.17.57:589][961]LogPlayLevel: Display: Destroying online subsystem :Context_30
+[2024.03.11-18.18.35:136][475]LogUObjectHash: Compacting FUObjectHashTables data took   4.23ms
+[2024.03.11-18.18.35:166][475]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.11-18.18.35:296][475]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_save" FILE="C:/Users/FAHUT/Documents/GitHub/Brew-or-Bang/Brew_or_Bang 5.3/Content/Blueprints/BP_save.uasset" SILENT=true
+[2024.03.11-18.18.35:358][475]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_save
+[2024.03.11-18.18.35:359][475]LogSavePackage: Moving 'C:/Users/FAHUT/Documents/GitHub/Brew-or-Bang/Brew_or_Bang 5.3/Saved/BP_save12A60EF248639E6A3CD3A8BDE257B945.tmp' to 'C:/Users/FAHUT/Documents/GitHub/Brew-or-Bang/Brew_or_Bang 5.3/Content/Blueprints/BP_save.uasset'
+[2024.03.11-18.18.35:385][475]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Menu/Widget/UI_ShopMenu" FILE="C:/Users/FAHUT/Documents/GitHub/Brew-or-Bang/Brew_or_Bang 5.3/Content/Menu/Widget/UI_ShopMenu.uasset" SILENT=true
+[2024.03.11-18.18.35:460][475]LogSavePackage: Moving output files for package: /Game/Menu/Widget/UI_ShopMenu
+[2024.03.11-18.18.35:461][475]LogSavePackage: Moving 'C:/Users/FAHUT/Documents/GitHub/Brew-or-Bang/Brew_or_Bang 5.3/Saved/UI_ShopMenu066C20844B6EE5B386A0ADA48EBBEB18.tmp' to 'C:/Users/FAHUT/Documents/GitHub/Brew-or-Bang/Brew_or_Bang 5.3/Content/Menu/Widget/UI_ShopMenu.uasset'
+[2024.03.11-18.18.35:479][475]LogFileHelpers: InternalPromptForCheckoutAndSave took 312 ms (total: 668 ms)
+[2024.03.11-18.18.35:498][475]AssetCheck: New page: Asset Save: multiple assets
+[2024.03.11-18.18.35:498][475]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_save.BP_save
+[2024.03.11-18.18.35:499][475]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Menu/Widget/UI_ShopMenu.UI_ShopMenu
