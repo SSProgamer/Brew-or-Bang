@@ -1,0 +1,14 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\github_project\\brew-or-bang\\brew_or_bang 5.3\\intermediate\\build\\win64\\x64\\unrealgame\\shipping\\brew_or_bang\\module.brew_or_bang.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\github_project\\brew-or-bang\\brew_or_bang 5.3\\intermediate\\build\\win64\\x64\\brew_or_bang\\shipping\\core\\sharedpch.core.cpp17.h.pch",
+        "Includes": [
+            "d:\\github_project\\brew-or-bang\\brew_or_bang 5.3\\intermediate\\build\\win64\\x64\\unrealgame\\shipping\\brew_or_bang\\definitions.brew_or_bang.h",
+            "d:\\github_project\\brew-or-bang\\brew_or_bang 5.3\\intermediate\\source\\brew_or_bang.cpp"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
