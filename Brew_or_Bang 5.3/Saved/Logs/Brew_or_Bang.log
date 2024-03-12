@@ -1451,3 +1451,13 @@ LogConfig: Set CVar [[r.setres:1280x720]]
 [2024.03.12-17.42.05:190][178]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
 [2024.03.12-17.42.05:212][179]LogPlayLevel: Display: Destroying online subsystem :Context_6
 [2024.03.12-17.42.10:211][468]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2024.03.12-17.42.55:282][782]LogSlate: External Image Picker: DecompressImage failed
+[2024.03.12-17.42.55:424][782]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.12-17.44.30:720][100]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2024.03.12-17.44.35:095][334]LogSlate: Window 'Project Settings' being destroyed
+[2024.03.12-17.44.35:106][334]LogSlate: Window 'Project Settings' being destroyed
+[2024.03.12-17.44.45:177][856]LogSlate: External Image Picker: DecompressImage failed
+[2024.03.12-17.45.03:782][908]LogSlate: Window 'Project Settings' being destroyed
+[2024.03.12-17.45.03:791][908]LogSlate: Window 'Project Settings' being destroyed
+[2024.03.12-17.45.05:475][995]LogUObjectHash: Compacting FUObjectHashTables data took   1.97ms
+[2024.03.12-17.45.12:692][393]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
