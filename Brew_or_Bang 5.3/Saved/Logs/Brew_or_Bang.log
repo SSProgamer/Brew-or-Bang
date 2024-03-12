@@ -2943,3 +2943,57 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.03.12-18.11.53:567][225]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
 [2024.03.12-18.11.53:580][225]LogWorld: UWorld::CleanupWorld for World_30, bSessionEnded=true, bCleanupResources=true
 [2024.03.12-18.11.53:580][225]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.12-18.12.58:366][566]LogMonitoredProcess: Running Serialized UAT: [ cmd.exe /c ""C:/Program Files/Epic Games/UE_5.3/Engine/Build/BatchFiles/RunUAT.bat" ZipProjectUp -nocompileeditor -project="D:/github_project/Brew-or-Bang/Brew_or_Bang 5.3/" -install="D:/github_project/Brew_or_Bang.zip"" -nocompile -nocompileuat ]
+[2024.03.12-18.12.58:450][569]UATHelper: Zip Project Task (Windows (Editor)): Running AutomationTool...
+[2024.03.12-18.12.58:492][571]UATHelper: Zip Project Task (Windows (Editor)): Using bundled DotNet SDK version: 6.0.302
+[2024.03.12-18.12.58:714][584]UATHelper: Zip Project Task (Windows (Editor)): Starting AutomationTool...
+[2024.03.12-18.12.58:745][586]UATHelper: Zip Project Task (Windows (Editor)): Parsing command line: ZipProjectUp -nocompileeditor -project="D:/github_project/Brew-or-Bang/Brew_or_Bang 5.3/" -install=D:/github_project/Brew_or_Bang.zip -nocompile -nocompileuat
+[2024.03.12-18.12.58:957][598]UATHelper: Zip Project Task (Windows (Editor)): Initializing script modules...
+[2024.03.12-18.12.59:477][626]UATHelper: Zip Project Task (Windows (Editor)): Total script module initialization time: 0.52 s.
+[2024.03.12-18.13.00:019][637]UATHelper: Zip Project Task (Windows (Editor)): Executing commands...
+[2024.03.12-18.13.00:029][637]UATHelper: Zip Project Task (Windows (Editor)): Started zipping project up
+[2024.03.12-18.13.00:029][637]UATHelper: Zip Project Task (Windows (Editor)): Project directory: D:\github_project\Brew-or-Bang\Brew_or_Bang 5.3
+[2024.03.12-18.13.00:029][637]UATHelper: Zip Project Task (Windows (Editor)): Install directory: D:/github_project/Brew_or_Bang.zip
+[2024.03.12-18.13.00:029][637]UATHelper: Zip Project Task (Windows (Editor)): Packaging up the project...
+[2024.03.12-18.14.02:034][823]UATHelper: Zip Project Task (Windows (Editor)): Completed zipping project up
+[2024.03.12-18.14.02:034][823]UATHelper: Zip Project Task (Windows (Editor)): BUILD SUCCESSFUL
+[2024.03.12-18.14.02:056][823]UATHelper: Zip Project Task (Windows (Editor)): AutomationTool executed for 0h 1m 3s
+[2024.03.12-18.14.02:056][823]UATHelper: Zip Project Task (Windows (Editor)): AutomationTool exiting with ExitCode=0 (Success)
+[2024.03.12-18.14.17:038][868]LogHttp: Warning: 00000410A6D07D00: request failed, libcurl error: 65 (Send failed since rewinding of the data stream failed)
+[2024.03.12-18.14.17:038][868]LogHttp: Warning: 00000410A6D07D00: libcurl info message cache 0 (Found bundle for host: 0x4106d180690 [serially])
+[2024.03.12-18.14.17:038][868]LogHttp: Warning: 00000410A6D07D00: libcurl info message cache 1 (Re-using existing connection with host datarouter.ol.epicgames.com)
+[2024.03.12-18.14.17:038][868]LogHttp: Warning: 00000410A6D07D00: libcurl info message cache 2 (We are completely uploaded and fine)
+[2024.03.12-18.14.17:038][868]LogHttp: Warning: 00000410A6D07D00: libcurl info message cache 3 (TLSv1.2 (IN), TLS alert, close notify (256):)
+[2024.03.12-18.14.17:038][868]LogHttp: Warning: 00000410A6D07D00: libcurl info message cache 4 (Connection died, retrying a fresh connect (retry count: 1))
+[2024.03.12-18.14.17:038][868]LogHttp: Warning: 00000410A6D07D00: libcurl info message cache 5 (state.rewindbeforesend = TRUE)
+[2024.03.12-18.14.17:038][868]LogHttp: Warning: 00000410A6D07D00: libcurl info message cache 6 (Closing connection)
+[2024.03.12-18.14.17:038][868]LogHttp: Warning: 00000410A6D07D00: libcurl info message cache 7 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.03.12-18.14.17:038][868]LogHttp: Warning: 00000410A6D07D00: libcurl info message cache 8 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BA5295792-4C55-059D-5368-5B8B46F65CEB%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=67d0bde646939b327a886caa95b3b730%7Cb85f3225090e46868efb854cdd99eaaa%7C928c8bea-1b0d-44e4-ad0a-bb475b4d5108&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2024.03.12-18.14.17:038][868]LogHttp: Warning: 00000410A6D07D00: libcurl info message cache 9 (  Trying 3.230.197.167:443...)
+[2024.03.12-18.14.17:038][868]LogHttp: Warning: 00000410A6D07D00: libcurl info message cache 10 (Connected to datarouter.ol.epicgames.com (3.230.197.167) port 443)
+[2024.03.12-18.14.17:038][868]LogHttp: Warning: 00000410A6D07D00: libcurl info message cache 11 (ALPN: curl offers http/1.1)
+[2024.03.12-18.14.17:038][868]LogHttp: Warning: 00000410A6D07D00: libcurl info message cache 12 (SSL reusing session ID)
+[2024.03.12-18.14.17:038][868]LogHttp: Warning: 00000410A6D07D00: libcurl info message cache 13 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2024.03.12-18.14.17:038][868]LogHttp: Warning: 00000410A6D07D00: libcurl info message cache 14 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2024.03.12-18.14.17:038][868]LogHttp: Warning: 00000410A6D07D00: libcurl info message cache 15 (TLSv1.2 (IN), TLS handshake, Certificate (11):)
+[2024.03.12-18.14.17:038][868]LogHttp: Warning: 00000410A6D07D00: libcurl info message cache 16 (TLSv1.2 (IN), TLS handshake, Server key exchange (12):)
+[2024.03.12-18.14.17:038][868]LogHttp: Warning: 00000410A6D07D00: libcurl info message cache 17 (TLSv1.2 (IN), TLS handshake, Server finished (14):)
+[2024.03.12-18.14.17:038][868]LogHttp: Warning: 00000410A6D07D00: libcurl info message cache 18 (TLSv1.2 (OUT), TLS handshake, Client key exchange (16):)
+[2024.03.12-18.14.17:038][868]LogHttp: Warning: 00000410A6D07D00: libcurl info message cache 19 (TLSv1.2 (OUT), TLS change cipher, Change cipher spec (1):)
+[2024.03.12-18.14.17:038][868]LogHttp: Warning: 00000410A6D07D00: libcurl info message cache 20 (TLSv1.2 (OUT), TLS handshake, Finished (20):)
+[2024.03.12-18.14.17:038][868]LogHttp: Warning: 00000410A6D07D00: libcurl info message cache 21 (TLSv1.2 (IN), TLS handshake, Finished (20):)
+[2024.03.12-18.14.17:038][868]LogHttp: Warning: 00000410A6D07D00: libcurl info message cache 22 (old SSL session ID is stale, removing)
+[2024.03.12-18.14.17:038][868]LogHttp: Warning: 00000410A6D07D00: libcurl info message cache 23 (SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256)
+[2024.03.12-18.14.17:038][868]LogHttp: Warning: 00000410A6D07D00: libcurl info message cache 24 (ALPN: server accepted http/1.1)
+[2024.03.12-18.14.17:038][868]LogHttp: Warning: 00000410A6D07D00: libcurl info message cache 25 (Server certificate:)
+[2024.03.12-18.14.17:038][868]LogHttp: Warning: 00000410A6D07D00: libcurl info message cache 26 ( subject: CN=datarouter.cfef.live.use1a.on.epicgames.com)
+[2024.03.12-18.14.17:038][868]LogHttp: Warning: 00000410A6D07D00: libcurl info message cache 27 ( start date: Mar  4 00:00:00 2024 GMT)
+[2024.03.12-18.14.17:038][868]LogHttp: Warning: 00000410A6D07D00: libcurl info message cache 28 ( expire date: Apr  2 23:59:59 2025 GMT)
+[2024.03.12-18.14.17:038][868]LogHttp: Warning: 00000410A6D07D00: libcurl info message cache 29 ( subjectAltName: host "datarouter.ol.epicgames.com" matched cert's "datarouter.ol.epicgames.com")
+[2024.03.12-18.14.17:038][868]LogHttp: Warning: 00000410A6D07D00: libcurl info message cache 30 ( issuer: C=US; O=Amazon; CN=Amazon RSA 2048 M03)
+[2024.03.12-18.14.17:038][868]LogHttp: Warning: 00000410A6D07D00: libcurl info message cache 31 ( SSL certificate verify ok.)
+[2024.03.12-18.14.17:038][868]LogHttp: Warning: 00000410A6D07D00: libcurl info message cache 32 (using HTTP/1.1)
+[2024.03.12-18.14.17:038][868]LogHttp: Warning: 00000410A6D07D00: libcurl info message cache 33 (necessary data rewind wasn't possible)
+[2024.03.12-18.14.17:038][868]LogHttp: Warning: 00000410A6D07D00: libcurl info message cache 34 (Closing connection)
+[2024.03.12-18.14.17:038][868]LogHttp: Warning: 00000410A6D07D00: libcurl info message cache 35 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.03.12-18.14.17:039][868]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BA5295792-4C55-059D-5368-5B8B46F65CEB%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=67d0bde646939b327a886caa95b3b730%7Cb85f3225090e46868efb854cdd99eaaa%7C928c8bea-1b0d-44e4-ad0a-bb475b4d5108&AppEnvironment=datacollector-binary&UploadType=eteventstream
